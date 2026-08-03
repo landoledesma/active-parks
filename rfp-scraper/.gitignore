@@ -1,5 +1,4 @@
 .venv/
-out/
 .playwright-cli/
 __pycache__/
 *.pyc

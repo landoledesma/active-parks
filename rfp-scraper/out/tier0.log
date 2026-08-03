@@ -1,0 +1,190 @@
+  1 escalate     30 sitemap          
+  2 unresolved None                  
+  3 resolved     85 sitemap        https://www.cityoflawrence.org/procurement/bid-opportunities  
+  4 escalate     40 cms:egov-doccenter   
+  5 unresolved None                  blocked:403 https://www.spencer.in.gov/; homepage-unreachable
+  7 unresolved None                  
+  8 unresolved  -25 path-probe       blocked:403 https://www.townofmonon.com/wp-sitemap.xml
+  9 resolved     95 path-probe     https://fishersin.gov/do-business-here/bids-proposals/  
+ 10 unresolved   25 sitemap          
+ 11 resolved     85 sitemap        https://townofroanoke.com/bid-opportunities  blocked:403 https://townofroanoke.com/wp-sitemap.xml
+ 12 unresolved   20 path-probe       
+ 13 unresolved None                  
+ 14 unresolved None                  blocked:403 https://www.ecsc.k12.in.us/bids
+ 15 unresolved None                  
+ 16 unresolved   25 sitemap          blocked:403 https://indianagps.doe.in.gov/Summary/Corporation/134
+ 17 unresolved   20 path-probe       
+ 18 unresolved  -10 sitemap          tls-unverified
+ 19 resolved     60 sitemap        https://www.nappanee.in.gov/government/clerk-treasurer/bid-opportunities  blocked:403 https://www.nappanee.in.gov/; homepage-unreachable
+ 20 unresolved  -50 portal-link      blocked:403 https://indianagps.doe.in.gov/Summary/Corporation/177
+ 21 unresolved   20 path-probe       
+ 22 unresolved None                  homepage-unreachable
+ 23 unresolved None                  
+ 24 unresolved None                  blocked:403 https://www.ingalls.in.gov; homepage-unreachable
+ 25 resolved     85 site-search    https://www.jgsc.k12.in.us/school-board/public-notices-information  blocked:403 https://indianagps.doe.in.gov/ReportCard/4587
+ 26 unresolved None                  blocked:403 https://townofcloverdale.in.gov/; homepage-unreachable
+ 27 resolved     75 sitemap        https://dekalbeastern.com/about/school-board/public-notices  
+ 29 unresolved  -40 portal-link      blocked:403 https://www.hobart.k12.in.us/bids.aspx
+ 30 unresolved  -30 portal-link      
+ 31 unresolved   -5 path-probe       
+ 32 unresolved None                  blocked:403 https://vevay.in.gov; homepage-unreachable
+ 34 unresolved   20 path-probe       
+ 35 unresolved   20 path-probe       
+ 36 unresolved None                  
+ 37 unresolved   20 path-probe       
+ 38 escalate     50 cms:squarespace   
+ 39 unresolved None                  blocked:429 https://www.noblesville.in.gov/816/Current-and-Past-Bids; homepage-unreachable
+ 40 unresolved  -15 cms:squarespace   
+ 41 unresolved    0 portal-link      blocked:429 https://www.madison-in.gov/wp-sitemap.xml
+ 43 resolved    115 site-search    https://www.egreene.k12.in.us/quick-links/request-for-bids  blocked:403 https://indianagps.doe.in.gov/ReportCard/3241
+ 44 unresolved   -5 path-probe       
+ 45 unresolved  -60 portal-link      blocked:403 https://indianagps.doe.in.gov/Summary/Corporation/250
+ 46 unresolved None                  blocked:403 https://indianagps.doe.in.gov/Summary/Corporation/5573
+ 47 unresolved None                  
+ 48 unresolved   25 sitemap          
+ 49 resolved     85 sitemap        https://www.townofpittsboro.org/Bids.aspx  
+ 50 unresolved   20 path-probe       
+ 51 unresolved   20 path-probe       
+ 52 resolved     65 sitemap        https://www.westlafayette.in.gov/services/bid-opportunities  
+ 53 unresolved None                  tls-unverified
+ 54 unresolved None                  blocked:403 https://indianagps.doe.in.gov/Summary/Corporation/237
+ 55 unresolved   20 path-probe       
+ 57 resolved     60 sitemap        https://ciesc.org/coop-purchasing-gets-school-district-more/  
+ 58 unresolved None                  
+ 59 unresolved None                  blocked:403 https://indianagps.doe.in.gov/ReportCard/4565
+ 60 unresolved None                  blocked:403 https://www.whitingindiana.com/; homepage-unreachable
+ 61 unresolved  -20 path-probe       blocked:403 https://indianagps.doe.in.gov/Summary/Corporation/282
+ 62 unresolved None                  blocked:403 https://cityofaustin.in.gov/; homepage-unreachable
+ 63 unresolved   20 path-probe       
+ 64 unresolved None                  blocked:403 https://www.educatemc.net/bids.aspx
+ 65 unresolved   20 path-probe       
+ 66 unresolved    0 cms:squarespace   
+ 67 unresolved   15 sitemap          
+ 68 unresolved None                  blocked:403 https://www.imsaindy.org/bids
+ 69 unresolved None                  blocked:403 https://wanatah-in.gov; homepage-unreachable
+ 70 unresolved None                  blocked:403 https://www.cityofkokomo.org; homepage-unreachable
+ 71 unresolved   20 path-probe       
+ 72 unresolved  -40 sitemap          blocked:403 https://mishawaka.in.gov/bids.aspx
+ 74 unresolved   20 path-probe       
+ 75 unresolved None                  blocked:403 https://www.veedersburg.in.gov/; homepage-unreachable
+ 76 unresolved None                  blocked:403 https://www.town.cumberland.in.us; homepage-unreachable
+ 77 unresolved  -40 portal-link      blocked:403 https://indianagps.doe.in.gov/Summary/Corporation/181
+ 78 unresolved None                  blocked:403 https://bicknell.in.gov; homepage-unreachable
+ 79 unresolved   20 path-probe       
+ 80 unresolved None                  
+ 81 unresolved   -5 path-probe       
+ 82 resolved     85 sitemap        https://www.shelbyville.in.gov/Bids.aspx  
+ 83 resolved     85 sitemap        https://www.carmel.in.gov/223/Bid-Opportunities  
+ 84 unresolved   20 path-probe       
+ 85 unresolved    0 cms:squarespace   
+ 86 unresolved None                  
+ 87 unresolved None                  
+ 88 resolved     85 sitemap        https://eastchicago.com/Bids.aspx  
+ 89 unresolved  -40 portal-link      
+ 90 unresolved None                  
+ 91 unresolved   20 path-probe       
+ 92 unresolved    0 portal-link      tls-unverified
+ 93 unresolved   20 path-probe       
+ 94 resolved     60 path-probe     https://www.fccsc.k12.in.us/purchasing  
+ 95 unresolved  -40 path-probe       
+ 96 unresolved None                  blocked:403 https://mccordsville.in.gov; homepage-unreachable
+ 97 unresolved   -5 path-probe       blocked:403 https://indianagps.doe.in.gov/Summary/Corporation/194
+ 98 unresolved None                  blocked:403 https://indianagps.doe.in.gov/Summary/Corporation/225
+ 99 unresolved   20 path-probe       
+100 unresolved None                  
+101 unresolved None                  
+102 unresolved None                  
+103 unresolved None                  
+104 resolved     95 sitemap        https://www.richmondindiana.gov/resources/bid-opportunities  
+105 unresolved None                  blocked:403 https://indianagps.doe.in.gov/Summary/Corporation/324
+106 unresolved   -5 path-probe       
+107 unresolved   15 sitemap          
+108 unresolved None                  
+110 resolved     65 path-probe     https://www.wayne.k12.in.us/community/public-notices  blocked:403 https://indianagps.doe.in.gov/Summary/Corporation/217
+111 unresolved   20 path-probe       
+113 unresolved None                  
+114 escalate     30 path-probe       blocked:403 https://www.townofwhiteland.com/bids.aspx
+115 unresolved None                  blocked:403 https://www.winfield.in.gov; homepage-unreachable
+116 unresolved   25 path-probe       blocked:403 https://identity.doe.in.gov/Account/Login?ReturnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3Dlinkportal-web%26redirect_uri%3Dhttps%253A%252F%252Flink.doe.in.gov%252Fsignin-oidc%26response_type%3Dcode%2520id_token%26scope%3Dopenid%2520profile%2520email%2520offline_access%2520authservice-api%26response_mode%3Dform_post%26nonce%3D637572068125482597.MzU3Nzk2ODQtMTQxZC00NWIwLTg3ZWMtNzFmOGQ2OTU2OTg2MjE1NGJmM2MtOTk4Ny00ODAxLWExMDMtZjYwNzNjOGU0Mjlk%26state%3DCfDJ8DS5QO1uBnlCvKi6wfVaH7XvALYsmojBtC4XNKWm-2xnMwMOCiPiX6wG5ijKbHpaBCrRf9KCAZr_yzROcnurdfCU4i6_WYVsaPLgg3ifSQdnqzjd847QHJDR2tijsodIt6kbwczBC6CQlAKbQvRKZPMDqM7YgyPGRCmQGa0rNCbebFIovNrXKPw_9wmwPxPE8-QaHgSThuIXuEN4AKSsVyK5Vkvb-d40gaVJQaxVW9b3nAkTckw6iAvBqUB5-jzXrWjd1_uTHiZm8eOaoFRIRpDtMXld6Mb_PyC4QDH6BXas%26x-client-SKU%3DID_NETSTANDARD2_0%26x-client-ver%3D6.7.1.0
+117 unresolved  -25 path-probe       blocked:403 https://montpeliercity.org/bids.aspx
+118 unresolved None                  
+119 unresolved  -40 site-search      
+120 unresolved None                  blocked:403 https://www.nedubois.k12.in.us/bids.aspx
+121 unresolved None                  
+122 unresolved None                  
+123 resolved     85 sitemap        https://www.cityofcharlestown.com/Bids.aspx  
+124 unresolved None                  
+125 resolved     65 sitemap        https://www.baugo.org/school_board/public_notices  
+126 unresolved None                  
+127 unresolved None                  blocked:403 https://indianagps.doe.in.gov/Summary/Corporation/289
+129 resolved     85 sitemap        https://www.cityofgreencastle.com/Bids.aspx  
+130 unresolved   20 path-probe       
+131 unresolved None                  
+132 unresolved  -25 path-probe       blocked:403 https://www.townofthorntown.com/wp-sitemap.xml
+133 unresolved None                  blocked:403 https://indianagps.doe.in.gov/Summary/Corporation/321
+134 unresolved  -40 portal-link      blocked:403 https://indianagps.doe.in.gov/Summary/Corporation/111
+135 escalate     35 path-probe       
+136 unresolved None                  
+137 unresolved None                  blocked:403 https://www.covington.k12.in.us/bids.aspx
+138 unresolved   20 path-probe       
+139 resolved     95 sitemap        https://www.newhaven.in.gov/Bids.aspx?CatID=22&txtSort=Category&showAllBids=on&Status=  
+140 unresolved None                  blocked:403 https://www.sefschools.org/bids
+141 resolved     65 sitemap        https://www.lakelandlakers.org/public-notices-home  
+142 unresolved  -25 path-probe       blocked:403 https://townofgreentown.com/wp-sitemap.xml
+143 unresolved   -5 path-probe       
+144 unresolved  -20 sitemap          blocked:403 https://indianagps.doe.in.gov/Summary/Corporation/300; tls-unverified
+145 unresolved None                  homepage-unreachable
+146 unresolved None                  blocked:403 https://www.marion.k12.in.us/bids
+147 unresolved None                  blocked:403 https://monrovia.in.gov; homepage-unreachable
+148 resolved     95 site-search    https://www.hseschools.org/community/public-notices  blocked:403 https://indianagps.doe.in.gov/Summary/Corporation/144
+149 unresolved   20 path-probe       
+150 unresolved None                  
+151 escalate     55 sitemap          
+153 resolved     65 sitemap        https://www.westville.k12.in.us/district_info/bids_requests_for_proposal  
+154 unresolved None                  
+155 unresolved None                  
+156 unresolved None                  
+157 unresolved None                  
+158 unresolved  -40 path-probe       
+159 unresolved None                  blocked:403 https://indianagps.doe.in.gov/Summary/Corporation/245
+160 unresolved None                  homepage-unreachable
+161 unresolved    0 cms:squarespace   
+162 unresolved None                  blocked:403 https://indianagps.doe.in.gov/Summary/Corporation/285
+163 resolved     60 sitemap        https://www.ciceroin.org/town-of-cicero-advertisement-for-bids/  
+164 unresolved   -5 path-probe       
+165 unresolved None                  blocked:403 https://www.northvernon-in.gov; homepage-unreachable
+166 escalate     45 site-search      
+167 unresolved None                  blocked:403 https://tellcity.in.gov; homepage-unreachable
+168 unresolved   20 path-probe       
+169 unresolved None                  blocked:403 https://whitestown.in.gov; homepage-unreachable
+170 unresolved  -40 portal-link      blocked:403 https://www.duneland.k12.in.us/bids.aspx
+171 escalate     35 site-search      blocked:403 https://www.zcs.k12.in.us/bids.aspx
+172 unresolved None                  blocked:403 https://indianagps.doe.in.gov/Summary/Corporation/227
+173 unresolved   25 sitemap          
+174 unresolved   20 path-probe       
+175 unresolved  -20 path-probe       blocked:403 https://secure.in.gov/apps/Che/scholartrack/
+176 resolved     70 sitemap        https://www.gohammond.com/departments/planning-and-development/economic-development/active-rfps/  
+177 identity-mismatch   35 home-link        input website redirects to www.cityofsouthport.gov which self-identifies as NC (2 addresses), not Indiana
+178 unresolved None                  
+179 unresolved None                  
+180 resolved     65 sitemap        https://www.sgcs.k12.in.us/legal-notices  
+181 unresolved None                  
+182 unresolved None                  
+183 unresolved None                  
+184 unresolved    0 portal-link      
+185 unresolved  -40 portal-link      blocked:403 https://www.portage.k12.in.us/bids
+186 resolved     95 site-search    https://www.cabeard.k12.in.us/central-office/public-notices  
+187 unresolved   20 path-probe       
+188 resolved     85 sitemap        https://www.ci.auburn.in.us/Bids.aspx  
+189 resolved     70 sitemap        https://www.columbus.in.gov/portfolio-items/rfi-and-rfq-documents/  
+190 unresolved   25 sitemap          blocked:403 https://visitgreenvillein.com/wp-sitemap.xml
+191 unresolved None                  
+192 unresolved None                  blocked:403 https://www.warsaw.in.gov/; homepage-unreachable
+193 unresolved None                  
+194 unresolved  -30 portal-link      
+195 unresolved    0 sitemap          
+196 unresolved None                  blocked:403 https://www.in.gov/business-opportunities
+197 unresolved None                  blocked:403 https://lebanon.in.gov; homepage-unreachable
+198 unresolved  -15 path-probe       blocked:403 https://www.townofgeneva.org/wp-sitemap.xml
+199 unresolved   -5 path-probe       
+200 unresolved None                  

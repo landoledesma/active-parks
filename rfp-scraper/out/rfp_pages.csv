@@ -1,0 +1,201 @@
+agency_name,state,agency_type,agency_website,rfp_url,rfp_hosting,rfp_platform,notes
+Waterloo,Indiana,city,https://waterlooin.gov,,not-found,not-found,"single 'Notice of Public Bid' from Sept 2021, not a listing page (A4)"
+Frankfort,Indiana,city,https://frankfort-in.gov,,not-found,not-found,no RFP/bid listing page found on the agency's own site
+Lawrence,Indiana,city,https://www.cityoflawrence.org,https://www.cityoflawrence.org/procurement/bid-opportunities,self-hosted,self-hosted,found via sitemap.xml; 2 solicitation item(s) on page; CMS: Drupal; verify score 85
+Greenwood,Indiana,city,https://www.greenwood.in.gov,,not-found,not-found,no page passed verification; best candidate https://www.greenwood.in.gov/egov/apps/document/center.egov?view=search&eGov_searchType=42 scored 10 (<60)
+Spencer,Indiana,city,https://www.spencer.in.gov/,,not-found,not-found,"no RFP/bid listing page found on the agency's own site; blocked: real Chrome also received ""403 Forbidden"" - not circumvented (A6)"
+Timothy L Johnson Academy,Indiana,school district,,,not-found,not-found,no agency_website in input; identity could not be anchored and no candidate host self-identified as this agency in Indiana (A9)
+North Judson,Indiana,city,https://www.northjudsonin.gov,,not-found,not-found,no RFP/bid listing page found on the agency's own site
+Monon,Indiana,city,https://www.townofmonon.com,,not-found,not-found,no RFP/bid listing page found on the agency's own site; blocked:403 https://www.townofmonon.com/wp-sitemap.xml
+Fishers,Indiana,city,https://fishersin.gov/,https://fishersin.gov/do-business-here/bids-proposals/,self-hosted,self-hosted,found by probing canonical paths; 1 solicitation item(s) on page; CMS: WordPress; verify score 95
+Western Wayne Schools,Indiana,school district,https://www.wwayne.k12.in.us,,not-found,not-found,"notices page carries only tax/budget notices (Notice to Taxpayers, Additional Appropriation) - no solicitations published here"
+Roanoke,Indiana,city,https://townofroanoke.com,https://townofroanoke.com/bid-opportunities,self-hosted,self-hosted,"found via sitemap.xml; no open solicitations listed at capture time (page is correct, A8); verify score 85"
+East Allen County Schools,Indiana,school district,https://www.eacs.k12.in.us/,,not-found,not-found,no page passed verification; best candidate https://www.eacs.k12.in.us/bids.aspx scored 20 (<60)
+Yorktown,Indiana,city,https://www.yorktownindiana.org/,,not-found,not-found,no RFP/bid listing page found on the agency's own site
+Edinburgh Community School Corp,Indiana,school district,https://ecsc.k12.in.us,,not-found,not-found,no RFP/bid listing page found on the agency's own site; blocked:403 https://www.ecsc.k12.in.us/bids
+North Vermillion Com Sch Corp,Indiana,school district,https://www.nvc.k12.in.us/,,not-found,not-found,no RFP/bid listing page found on the agency's own site
+Porter Township School Corp,Indiana,school district,https://www.ptsc.k12.in.us/,,not-found,not-found,no page passed verification; best candidate https://www.ptsc.k12.in.us/building-projects/invitation-to-bidders-bghs-campus-improvements-related-work-2022/ scored 20 (<60); blocked:403 https://indianagps.doe.in.gov/Summary/Corporation/134
+Evansville,Indiana,city,https://www.evansvillegov.org,,not-found,not-found,no page passed verification; best candidate https://www.evansvillegov.org/city/department/index.php?structureid=48 scored 20 (<60)
+Aurora,Indiana,city,https://aurora.in.us,,not-found,not-found,no RFP/bid listing page found on the agency's own site; tls-unverified
+Nappanee,Indiana,city,https://www.nappanee.in.gov/,https://www.nappanee.in.gov/government/clerk-treasurer/bid-opportunities,self-hosted,self-hosted,found via sitemap.xml; page identified by URL+title; no individual solicitation entries could be parsed (may be JS- or PDF-published); re-verification inconclusive (http 403 at re-check); accepted on the earlier verified capture; verify score 60
+North Daviess Com Schools,Indiana,school district,https://www.ndaviess.k12.in.us/,,not-found,not-found,no RFP/bid listing page found on the agency's own site; blocked:403 https://indianagps.doe.in.gov/Summary/Corporation/177
+Delphi,Indiana,city,https://www.delphicity.com/,,not-found,not-found,"no page passed verification; best candidate https://www.delphicity.com/bids.aspx scored 20 (<60); blocked: real Chrome also received ""Access Denied"" - not circumvented (A6)"
+Excel Center - Shelbyville,Indiana,school district,https://www.excelcenter.org,,not-found,not-found,no RFP/bid listing page found on the agency's own site; homepage-unreachable
+Akron,Indiana,city,https://akronindiana.com,,not-found,not-found,no RFP/bid listing page found on the agency's own site
+Ingalls,Indiana,city,https://www.ingalls.in.gov,,not-found,not-found,no RFP/bid listing page found on the agency's own site; blocked:403 https://www.ingalls.in.gov; homepage-unreachable
+John Glenn School Corporation,Indiana,school district,https://www.jgsc.k12.in.us/,https://www.jgsc.k12.in.us/school-board/public-notices-information,self-hosted,self-hosted,found via the site's search endpoint; 2 solicitation item(s) on page; CMS: Joomla; verify score 65
+Cloverdale,Indiana,city,https://townofcloverdale.in.gov/,,not-found,not-found,no RFP/bid listing page found on the agency's own site; blocked:403 https://townofcloverdale.in.gov/; homepage-unreachable
+DeKalb Co Eastern Com Sch Dist,Indiana,school district,https://www.dekalbeastern.com/,https://dekalbeastern.com/about/school-board/public-notices,self-hosted,self-hosted,found via sitemap.xml; 1 solicitation item(s) on page; verify score 75
+Newburgh,Indiana,city,,,not-found,not-found,website absent from input; domain inferred as https://newburgh.in.gov by name+Indiana self-identification - VERIFY MANUALLY (A9); no RFP/bid listing found on the inferred site
+School City of Hobart,Indiana,school district,https://www.hobart.k12.in.us/,,not-found,not-found,no RFP/bid listing page found on the agency's own site; blocked:403 https://www.hobart.k12.in.us/bids.aspx
+Trafalgar,Indiana,city,https://www.townoftrafalgar.org,,not-found,not-found,no RFP/bid listing page found on the agency's own site
+Ladoga,Indiana,city,https://www.townofladoga.org,,not-found,not-found,no RFP/bid listing page found on the agency's own site
+Vevay,Indiana,city,https://vevay.in.gov,,not-found,not-found,no RFP/bid listing page found on the agency's own site; blocked:403 https://vevay.in.gov; homepage-unreachable
+Greater Clark County Schools,Indiana,school district,,,not-found,not-found,no agency_website in input; identity could not be anchored and no candidate host self-identified as this agency in Indiana (A9)
+South Harrison Com Schools,Indiana,school district,https://www.shcsc.k12.in.us/,,not-found,not-found,no page passed verification; best candidate https://www.shcsc.k12.in.us/bids.aspx scored 20 (<60)
+Mitchell Community Schools,Indiana,school district,https://www.mitchell.k12.in.us,,not-found,not-found,no page passed verification; best candidate https://www.mitchell.k12.in.us/page/public-notices/ scored 20 (<60)
+Goshen Community Schools,Indiana,school district,https://www.goshenschools.org/,,not-found,not-found,no RFP/bid listing page found on the agency's own site
+Clark-Pleasant Community Sch Corp,Indiana,school district,https://www.cpcsc.k12.in.us/,,not-found,not-found,no page passed verification; best candidate https://www.cpcsc.k12.in.us/bids.aspx scored 20 (<60)
+Fairmount,Indiana,city,https://www.fairmount-in.com,,not-found,not-found,"site-search result page quoting the public-records bid policy, not a solicitation listing"
+Noblesville,Indiana,city,https://www.noblesville.in.gov/,,not-found,not-found,no page passed verification; best candidate https://www.noblesville.in.gov/797/Current-and-Past-Bids scored 40 (<60); blocked:429 https://www.noblesville.in.gov/816/Current-and-Past-Bids; homepage-unreachable
+Discovery Charter School,Indiana,school district,https://www.discoverycharter.org,,not-found,not-found,no RFP/bid listing page found on the agency's own site
+Madison,Indiana,city,https://www.madison-in.gov,https://www.madison-in.gov/Bids.aspx,self-hosted,self-hosted,"found via browser-sitemap; no open solicitations listed at capture time (page is correct, A8); verify score 85"
+Oakland City,Indiana,city,,,not-found,not-found,no agency_website in input; identity could not be anchored and no candidate host self-identified as this agency in Indiana (A9)
+Eastern Greene Schools,Indiana,school district,https://www.egreene.k12.in.us/,https://www.egreene.k12.in.us/quick-links/request-for-bids,self-hosted,self-hosted,found via the site's search endpoint; 8 solicitation item(s) on page; CMS: Finalsite; verify score 95
+Rossville Con School District,Indiana,school district,https://www.rcsd.k12.in.us,,not-found,not-found,no page passed verification; best candidate https://www.rcsd.k12.in.us/legal-and-policies scored -5 (<60)
+Prairie Heights Community Sch Corp,Indiana,school district,https://www.ph.k12.in.us,,not-found,not-found,no RFP/bid listing page found on the agency's own site; blocked:403 https://indianagps.doe.in.gov/Summary/Corporation/250
+Otwell Miller Academy,Indiana,school district,https://www.otwellmilleracademy.school/,,not-found,not-found,no RFP/bid listing page found on the agency's own site; blocked:403 https://indianagps.doe.in.gov/Summary/Corporation/5573
+Mitchell,Indiana,city,https://mitchell-in.gov,,not-found,not-found,no RFP/bid listing page found on the agency's own site
+Poseyville,Indiana,city,https://www.poseyville.us,,not-found,not-found,public-notices page reachable but contains no solicitation entries
+Pittsboro,Indiana,city,https://www.townofpittsboro.org/,https://www.townofpittsboro.org/Bids.aspx,self-hosted,self-hosted,"found via sitemap.xml; no open solicitations listed at capture time (page is correct, A8); CMS: CivicPlus; verify score 85"
+MSD Warren County,Indiana,school district,https://www.msdwarco.k12.in.us/,,not-found,not-found,no page passed verification; best candidate https://www.msdwarco.k12.in.us/bids.aspx scored 20 (<60)
+Fairfield Community Schools,Indiana,school district,https://www.fairfield.k12.in.us/,,not-found,not-found,no page passed verification; best candidate https://www.fairfield.k12.in.us/bids.aspx scored 20 (<60)
+West Lafayette,Indiana,city,https://www.westlafayette.in.gov,https://www.westlafayette.in.gov/services/bid-opportunities,self-hosted,self-hosted,found via sitemap.xml; 12 solicitation item(s) on page; CMS: Granicus; re-verification inconclusive (http 403 at re-check); accepted on the earlier verified capture; verify score 65
+21st Century Charter Sch of Gary,Indiana,school district,https://www.geoacademies.org/,,not-found,not-found,no RFP/bid listing page found on the agency's own site; tls-unverified
+School Town of Munster,Indiana,school district,https://www.munster.us,,not-found,not-found,no RFP/bid listing page found on the agency's own site; blocked:403 https://indianagps.doe.in.gov/Summary/Corporation/237
+MSD Warren Township,Indiana,school district,https://www.warren.k12.in.us/,https://www.warren.k12.in.us/page/rfp,self-hosted,self-hosted,found via browser-link+rendered; page identified by URL+title; no individual solicitation entries could be parsed (may be JS- or PDF-published); verify score 60
+Southeastern Career Center,Indiana,school district,,,not-found,not-found,no agency_website in input; identity could not be anchored and no candidate host self-identified as this agency in Indiana (A9)
+Central IN Education Service Ctr,Indiana,school district,https://www.ciesc.org,,not-found,not-found,"blog post about cooperative purchasing, not a solicitation listing"
+Danville Community School Corp,Indiana,school district,https://www.danville.k12.in.us/,,not-found,not-found,"finance department page, no solicitation entries"
+Jac-Cen-Del Community Sch Corp,Indiana,school district,https://www.jaccendel.k12.in.us/,,not-found,not-found,no RFP/bid listing page found on the agency's own site; blocked:403 https://indianagps.doe.in.gov/ReportCard/4565
+Whiting,Indiana,city,https://www.whitingindiana.com/,,not-found,not-found,no RFP/bid listing page found on the agency's own site; blocked:403 https://www.whitingindiana.com/; homepage-unreachable
+School Town of Speedway,Indiana,school district,https://www.speedwayschools.net,,not-found,not-found,no RFP/bid listing page found on the agency's own site; blocked:403 https://indianagps.doe.in.gov/Summary/Corporation/282
+Austin,Indiana,city,https://cityofaustin.in.gov/,,not-found,not-found,no RFP/bid listing page found on the agency's own site; blocked:403 https://cityofaustin.in.gov/; homepage-unreachable
+Crawford County Community Sch Corp,Indiana,school district,https://www.cccs.k12.in.us/,,not-found,not-found,no page passed verification; best candidate https://www.cccs.k12.in.us/bids.aspx scored 20 (<60)
+Michigan City Area Schools,Indiana,school district,https://www.mcas.k12.in.us,,not-found,not-found,no RFP/bid listing page found on the agency's own site; blocked:403 https://www.educatemc.net/bids.aspx
+Northeastern Wayne Schools,Indiana,school district,https://www.nws.k12.in.us/,,not-found,not-found,no page passed verification; best candidate https://www.nws.k12.in.us/bids.aspx scored 20 (<60)
+Seven Oaks Classical School,Indiana,school district,https://www.sevenoaksclassical.org/,,not-found,not-found,no RFP/bid listing page found on the agency's own site
+Union Co/Clg Corner Joint Sch Dist,Indiana,school district,https://www.uc.k12.in.us/,https://www.uc.k12.in.us/public-notices,self-hosted,self-hosted,resolved by agent navigation; page lists a live solicitation: 'Request For Proposal - Food Operation and Management Services'; verify score 60
+IN Math & Science Academy,Indiana,school district,https://www.imsaindy.org,,not-found,not-found,no RFP/bid listing page found on the agency's own site; blocked:403 https://www.imsaindy.org/bids
+Wanatah,Indiana,city,https://wanatah-in.gov,https://wanatah-in.gov/quick-links/request-for-information/,self-hosted,self-hosted,found via browser-link; 1 solicitation item(s) on page; re-verification inconclusive (http 403 at re-check); accepted on the earlier verified capture; verify score 65
+Kokomo,Indiana,city,https://www.cityofkokomo.org,,not-found,not-found,no RFP/bid listing page found on the agency's own site; blocked:403 https://www.cityofkokomo.org; homepage-unreachable
+Westview School Corporation,Indiana,school district,https://www.westview.k12.in.us/,,not-found,not-found,no page passed verification; best candidate https://www.westview.k12.in.us/bids.aspx scored 20 (<60)
+Mishawaka,Indiana,city,https://mishawaka.in.gov,,not-found,not-found,no page passed verification; best candidate https://mishawaka.in.gov/business/vendor-registration/ scored 15 (<60); blocked:403 https://mishawaka.in.gov/bids.aspx
+Clay City,Indiana,city,,,not-found,not-found,no agency_website in input; identity could not be anchored and no candidate host self-identified as this agency in Indiana (A9)
+Springs Valley Com School Corp,Indiana,school district,https://www.svalley.k12.in.us,,not-found,not-found,no page passed verification; best candidate https://www.svalley.k12.in.us/bids.aspx scored 20 (<60)
+Veedersburg,Indiana,city,https://www.veedersburg.in.gov/,,not-found,not-found,no RFP/bid listing page found on the agency's own site; blocked:403 https://www.veedersburg.in.gov/; homepage-unreachable
+Cumberland,Indiana,city,https://www.town.cumberland.in.us,,not-found,not-found,no RFP/bid listing page found on the agency's own site; blocked:403 https://www.town.cumberland.in.us; homepage-unreachable
+Barr-Reeve Community Schools Inc,Indiana,school district,https://www.barr.k12.in.us/,,not-found,not-found,no RFP/bid listing page found on the agency's own site; blocked:403 https://indianagps.doe.in.gov/Summary/Corporation/181
+Bicknell,Indiana,city,https://bicknell.in.gov,,not-found,not-found,no RFP/bid listing page found on the agency's own site; blocked:403 https://bicknell.in.gov; homepage-unreachable
+East Noble School Corporation,Indiana,school district,https://www.eastnoble.net/,,not-found,not-found,no page passed verification; best candidate https://www.eastnoble.net/bids.aspx scored 20 (<60)
+Avondale Meadows Middle School,Indiana,school district,https://avondalemeadowsms.org,,not-found,not-found,no RFP/bid listing page found on the agency's own site
+Indiana School For The Deaf,Indiana,school district,https://www.deafhoosiers.com,,not-found,not-found,no RFP/bid listing page found on the agency's own site
+Shelbyville,Indiana,city,https://www.shelbyville.in.gov/,https://www.shelbyville.in.gov/Bids.aspx,self-hosted,self-hosted,"found via sitemap.xml; no open solicitations listed at capture time (page is correct, A8); CMS: CivicPlus; verify score 85"
+Carmel,Indiana,city,https://www.carmel.in.gov,https://www.carmel.in.gov/223/Bid-Opportunities,self-hosted,self-hosted,found via sitemap.xml; 1 solicitation item(s) on page; CMS: CivicPlus; verify score 85
+School City of Whiting,Indiana,school district,https://www.whiting.k12.in.us/,,not-found,not-found,no page passed verification; best candidate https://www.whiting.k12.in.us/bids.aspx scored 20 (<60)
+Hartford City,Indiana,city,https://www.hartfordcity.net,,not-found,not-found,no RFP/bid listing page found on the agency's own site
+Huntingburg,Indiana,city,https://www.huntingburg-in.gov,,not-found,not-found,no RFP/bid listing page found on the agency's own site
+Attica,Indiana,city,https://attica-in.gov,,not-found,not-found,no RFP/bid listing page found on the agency's own site
+East Chicago,Indiana,city,https://eastchicago.com,https://eastchicago.com/Bids.aspx,self-hosted,self-hosted,"found via sitemap.xml; no open solicitations listed at capture time (page is correct, A8); CMS: CivicPlus; verify score 85"
+Greenfield-Central Com Schools,Indiana,school district,https://www.gcsc.k12.in.us/,,not-found,not-found,no RFP/bid listing page found on the agency's own site
+Versailles,Indiana,city,https://townofversailles.com,,not-found,not-found,no RFP/bid listing page found on the agency's own site
+Oak Hill United School Corp,Indiana,school district,https://www.ohusc.k12.in.us/,,not-found,not-found,no page passed verification; best candidate https://www.ohusc.k12.in.us/bids.aspx scored 20 (<60)
+IN Sch for the Blind & Vis Imprd,Indiana,school district,https://www.isbvik12.org/,,not-found,not-found,no RFP/bid listing page found on the agency's own site; tls-unverified
+North Putnam Community Schools,Indiana,school district,https://www.nputnam.k12.in.us/,,not-found,not-found,legal-notices page reachable but contains no solicitation entries
+Franklin County Community Sch Corp,Indiana,school district,https://www.fccsc.k12.in.us,https://www.fccsc.k12.in.us/purchasing,self-hosted,self-hosted,found by probing canonical paths; page identified by URL+title; no individual solicitation entries could be parsed (may be JS- or PDF-published); verify score 60
+Oxford,Indiana,city,https://oxford.in.gov,,not-found,not-found,no RFP/bid listing page found on the agency's own site
+McCordsville,Indiana,city,https://mccordsville.in.gov,,not-found,not-found,no RFP/bid listing page found on the agency's own site; blocked:403 https://mccordsville.in.gov; homepage-unreachable
+Western Boone Co Com Sch Dist,Indiana,school district,https://www.weboschools.org/,,not-found,not-found,no RFP/bid listing page found on the agency's own site; blocked:403 https://indianagps.doe.in.gov/Summary/Corporation/194
+South Madison Com Sch Corp,Indiana,school district,https://www.smadison.k12.in.us/,,not-found,not-found,no RFP/bid listing page found on the agency's own site; blocked:403 https://indianagps.doe.in.gov/Summary/Corporation/225
+South Newton School Corp,Indiana,school district,https://www.newton.k12.in.us,,not-found,not-found,no page passed verification; best candidate https://www.newton.k12.in.us/bids.aspx scored 20 (<60)
+Avondale Meadows Academy,Indiana,school district,https://avondalemeadowsacademy.com/,,not-found,not-found,no RFP/bid listing page found on the agency's own site
+Cowan Community School Corp,Indiana,school district,https://www.cowan.k12.in.us/,,not-found,not-found,no RFP/bid listing page found on the agency's own site
+Canaan Community Academy,Indiana,school district,https://www.canaancommunityacademy.com,,not-found,not-found,no RFP/bid listing page found on the agency's own site
+Washington,Indiana,city,https://www.washingtonin.us/,,not-found,not-found,no RFP/bid listing page found on the agency's own site
+Richmond,Indiana,city,https://www.richmondindiana.gov,https://www.richmondindiana.gov/resources/bid-opportunities,self-hosted,self-hosted,found via sitemap.xml; 2 solicitation item(s) on page; verify score 95
+Griffith Public Schools,Indiana,school district,https://www.griffith.k12.in.us/,,not-found,not-found,no RFP/bid listing page found on the agency's own site; blocked:403 https://indianagps.doe.in.gov/Summary/Corporation/324
+Wabash City Schools,Indiana,school district,https://apaches.k12.in.us/,,not-found,not-found,no RFP/bid listing page found on the agency's own site
+White River Valley School District,Indiana,school district,https://www.wrv.k12.in.us,,not-found,not-found,notices page carries only public-hearing and taxpayer notices - no solicitations published here
+Porter County Education Services,Indiana,school district,https://www.pces.k12.in.us/,,not-found,not-found,no RFP/bid listing page found on the agency's own site
+West Washington School Corp,Indiana,school district,,,not-found,not-found,no agency_website in input; identity could not be anchored and no candidate host self-identified as this agency in Indiana (A9)
+MSD Wayne Township,Indiana,school district,https://www.wayne.k12.in.us/,https://www.wayne.k12.in.us/community/public-notices,self-hosted,self-hosted,resolved by agent navigation; CMS: Finalsite; page lists 'Request for Proposal Projects' and 'View Request for Proposals' - solicitations are published here; verify score 60
+Daleville Community Schools,Indiana,school district,https://www.daleville.k12.in.us/,,not-found,not-found,no page passed verification; best candidate https://www.daleville.k12.in.us/bids.aspx scored 20 (<60)
+Shelby Eastern Schools,Indiana,school district,,,not-found,not-found,no agency_website in input; identity could not be anchored and no candidate host self-identified as this agency in Indiana (A9)
+West Terre Haute,Indiana,city,https://www.townofwestterrehaute.com,,not-found,not-found,no RFP/bid listing page found on the agency's own site
+Whiteland,Indiana,city,https://www.townofwhiteland.com/,,not-found,not-found,public-notices page reachable but contains no solicitation entries; blocked:403 https://www.townofwhiteland.com/bids.aspx
+Winfield,Indiana,city,https://www.winfield.in.gov,,not-found,not-found,no RFP/bid listing page found on the agency's own site; blocked:403 https://www.winfield.in.gov; homepage-unreachable
+MSD Mount Vernon,Indiana,school district,https://www.mvschool.org,,not-found,not-found,no page passed verification; best candidate https://www.mvschool.org/departments/business-office scored 25 (<60); blocked:403 https://identity.doe.in.gov/Account/Login?ReturnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3Dlinkportal-web%26redirect_uri%3Dhttps%253A%252F%252Flink.doe.in.gov%252Fsignin-oidc%26response_type%3Dcode%2520id_token%26scope%3Dopenid%2520profile%2520email%2520offline_access%2520authservice-api%26response_mode%3Dform_post%26nonce%3D637572068125482597.MzU3Nzk2ODQtMTQxZC00NWIwLTg3ZWMtNzFmOGQ2OTU2OTg2MjE1NGJmM2MtOTk4Ny00ODAxLWExMDMtZjYwNzNjOGU0Mjlk%26state%3DCfDJ8DS5QO1uBnlCvKi6wfVaH7XvALYsmojBtC4XNKWm-2xnMwMOCiPiX6wG5ijKbHpaBCrRf9KCAZr_yzROcnurdfCU4i6_WYVsaPLgg3ifSQdnqzjd847QHJDR2tijsodIt6kbwczBC6CQlAKbQvRKZPMDqM7YgyPGRCmQGa0rNCbebFIovNrXKPw_9wmwPxPE8-QaHgSThuIXuEN4AKSsVyK5Vkvb-d40gaVJQaxVW9b3nAkTckw6iAvBqUB5-jzXrWjd1_uTHiZm8eOaoFRIRpDtMXld6Mb_PyC4QDH6BXas%26x-client-SKU%3DID_NETSTANDARD2_0%26x-client-ver%3D6.7.1.0
+Montpelier,Indiana,city,https://montpeliercity.org/,,not-found,not-found,no RFP/bid listing page found on the agency's own site; blocked:403 https://montpeliercity.org/bids.aspx
+Medora Community School Corp,Indiana,school district,https://www.medora.k12.in.us/,,not-found,not-found,no RFP/bid listing page found on the agency's own site
+Arcadia,Indiana,city,https://www.arcadiaindiana.org,,not-found,not-found,no RFP/bid listing page found on the agency's own site
+Northeast Dubois Co Sch Corp,Indiana,school district,https://www.nedubois.k12.in.us/,,not-found,not-found,no RFP/bid listing page found on the agency's own site; blocked:403 https://www.nedubois.k12.in.us/bids.aspx
+St. Leon,Indiana,city,https://townofstleon.com,,not-found,not-found,no RFP/bid listing page found on the agency's own site
+Loogootee,Indiana,city,https://loogootee.in.gov,,not-found,not-found,no RFP/bid listing page found on the agency's own site
+Charlestown,Indiana,city,https://www.cityofcharlestown.com,https://www.cityofcharlestown.com/Bids.aspx,self-hosted,self-hosted,"found via sitemap.xml; no open solicitations listed at capture time (page is correct, A8); CMS: CivicPlus; verify score 85"
+DeKalb Co Ctl United Sch Dist,Indiana,school district,https://www.dekalbcentral.net/,,not-found,not-found,no RFP/bid listing page found on the agency's own site
+Baugo Community Schools,Indiana,school district,https://www.baugo.org,https://www.baugo.org/school_board/public_notices,self-hosted,self-hosted,found via sitemap.xml; 2 solicitation item(s) on page; verify score 65
+Argos,Indiana,city,https://www.townofargos.com/,,not-found,not-found,no RFP/bid listing page found on the agency's own site
+Maconaquah School Corp,Indiana,school district,https://www.maconaquah.k12.in.us/,,not-found,not-found,no RFP/bid listing page found on the agency's own site; blocked:403 https://indianagps.doe.in.gov/Summary/Corporation/289
+Twin Lakes School Corp,Indiana,school district,,,not-found,not-found,website absent from input; domain inferred as https://tlschools.org by name+Indiana self-identification - VERIFY MANUALLY (A9); no RFP/bid listing found on the inferred site
+Greencastle,Indiana,city,https://www.cityofgreencastle.com,https://www.cityofgreencastle.com/Bids.aspx,self-hosted,self-hosted,"found via sitemap.xml; no open solicitations listed at capture time (page is correct, A8); CMS: CivicPlus; verify score 85"
+Whitley County Con Schools,Indiana,school district,https://www.wccs.k12.in.us/,,not-found,not-found,no page passed verification; best candidate https://www.wccsonline.com/bids.aspx scored 20 (<60)
+Shenandoah School Corporation,Indiana,school district,https://www.shenandoah.k12.in.us,,not-found,not-found,no RFP/bid listing page found on the agency's own site
+Thorntown,Indiana,city,https://www.townofthorntown.com,,not-found,not-found,no RFP/bid listing page found on the agency's own site; blocked:403 https://www.townofthorntown.com/wp-sitemap.xml
+Decatur County Community Schools,Indiana,school district,https://www.decaturco.k12.in.us/,,not-found,not-found,no RFP/bid listing page found on the agency's own site; blocked:403 https://indianagps.doe.in.gov/Summary/Corporation/321
+Central Noble Com School Corp,Indiana,school district,https://www.centralnoble.k12.in.us,,not-found,not-found,no RFP/bid listing page found on the agency's own site; blocked:403 https://indianagps.doe.in.gov/Summary/Corporation/111
+Corydon,Indiana,city,https://townofcorydon.com/,,not-found,not-found,"business page, no solicitation entries"
+New Pekin,Indiana,city,https://townofnewpekin.com,,not-found,not-found,no RFP/bid listing page found on the agency's own site
+Covington Community School Corp,Indiana,school district,https://www.covington.k12.in.us/,,not-found,not-found,no RFP/bid listing page found on the agency's own site; blocked:403 https://www.covington.k12.in.us/bids.aspx
+North Spencer County Sch Corp,Indiana,school district,https://www.nspencer.k12.in.us/,,not-found,not-found,no page passed verification; best candidate https://www.nspencer.k12.in.us/bids.aspx scored 20 (<60)
+New Haven,Indiana,city,https://www.newhaven.in.gov,https://www.newhaven.in.gov/Bids.aspx?CatID=22&txtSort=Category&showAllBids=on&Status=,self-hosted,self-hosted,found via sitemap.xml; 1 solicitation item(s) on page; CMS: CivicPlus; verify score 95
+Southeast Fountain School Corp,Indiana,school district,https://www.sefschools.org,,not-found,not-found,no RFP/bid listing page found on the agency's own site; blocked:403 https://www.sefschools.org/bids
+Lakeland School Corporation,Indiana,school district,https://www.lakelandlakers.org/,https://www.lakelandlakers.org/public-notices-home,self-hosted,self-hosted,found via sitemap.xml; 1 solicitation item(s) on page; verify score 65
+Greentown,Indiana,city,https://townofgreentown.com/,,not-found,not-found,no RFP/bid listing page found on the agency's own site; blocked:403 https://townofgreentown.com/wp-sitemap.xml
+Decatur,Indiana,city,https://www.cityofdecatur.in.gov,,not-found,not-found,no RFP/bid listing page found on the agency's own site
+Tri-County School Corporation,Indiana,school district,https://www.trico.k12.in.us,,not-found,not-found,no RFP/bid listing page found on the agency's own site; blocked:403 https://indianagps.doe.in.gov/Summary/Corporation/300; tls-unverified
+Huntertown,Indiana,city,https://www.huntertown.org,,not-found,not-found,no RFP/bid listing page found on the agency's own site; homepage-unreachable
+Marion Community Schools,Indiana,school district,https://www.marion.k12.in.us,,not-found,not-found,no page passed verification; best candidate https://www.marion.k12.in.us/apps/pages/index.jsp?uREC_ID=3898055&type=d&pREC_ID=2581957 scored 20 (<60); blocked:403 https://www.marion.k12.in.us/bids
+Monrovia,Indiana,city,https://monrovia.in.gov,,not-found,not-found,no RFP/bid listing page found on the agency's own site; blocked:403 https://monrovia.in.gov; homepage-unreachable
+Hamilton Southeastern Schools,Indiana,school district,https://www.hseschools.org/,https://www.hseschools.org/community/public-notices,self-hosted,self-hosted,found via the site's search endpoint; 1 solicitation item(s) on page; CMS: Finalsite; verify score 75
+Salem Community Schools,Indiana,school district,https://www.salemschools.com,,not-found,not-found,no page passed verification; best candidate https://www.salemschools.com/bids.aspx scored 20 (<60)
+Bourbon,Indiana,city,https://www.bourbon-in.gov,,not-found,not-found,no RFP/bid listing page found on the agency's own site
+Monroe Central School Corp,Indiana,school district,https://www.monroecentral.org,,not-found,not-found,"single Request for Proposals (banking, Mar 2024) posted as a news item, not a listing page (A4)"
+South Bend Community School Corp,Indiana,school district,,,not-found,not-found,no agency_website in input; identity could not be anchored and no candidate host self-identified as this agency in Indiana (A9)
+MSD of New Durham Township,Indiana,school district,https://www.westville.k12.in.us,https://www.westville.k12.in.us/district_info/bids_requests_for_proposal,self-hosted,self-hosted,found via sitemap.xml; 2 solicitation item(s) on page; verify score 65
+Ligonier,Indiana,city,https://www.in.gov/cities/ligonier/,,not-found,not-found,no RFP/bid listing page found on the agency's own site
+Wolcottville,Indiana,city,https://www.in.gov/towns/wolcottville/,,not-found,not-found,no RFP/bid listing page found on the agency's own site
+Albany,Indiana,city,https://albanyin.com,,not-found,not-found,no RFP/bid listing page found on the agency's own site
+North Knox School Corp,Indiana,school district,https://www.nknox.k12.in.us/,,not-found,not-found,no RFP/bid listing page found on the agency's own site
+Brazil,Indiana,city,https://brazil.in.gov,,not-found,not-found,no page passed verification; best candidate https://brazil.in.gov/board-of-works-6-10-2020/ scored 10 (<60)
+Lake Central School Corporation,Indiana,school district,https://www.lcsc.us/,,not-found,not-found,no RFP/bid listing page found on the agency's own site; blocked:403 https://indianagps.doe.in.gov/Summary/Corporation/245
+La Porte,Indiana,city,https://cityoflaporte.com,,not-found,not-found,"blocked: real Chrome served a 'Robot Challenge Screen' (sgcaptcha) with 0 anchors; WAF block missed by the static pipeline and confirmed in the post-timebox audit (R4). Not circumvented (A6) - this is 'could not see', not 'does not publish'."
+Markle,Indiana,city,https://www.markleindiana.com,,not-found,not-found,no RFP/bid listing page found on the agency's own site
+North Gibson School Corporation,Indiana,school district,https://www.ngsc.k12.in.us/,,not-found,not-found,no RFP/bid listing page found on the agency's own site; blocked:403 https://indianagps.doe.in.gov/Summary/Corporation/285
+Cicero,Indiana,city,https://www.ciceroin.org,,not-found,not-found,"single bid advertisement for one project, not a listing page (A4); blocked:403 https://www.ciceroin.org/bids.aspx"
+Garrett,Indiana,city,https://www.garrettindiana.us,,not-found,not-found,no RFP/bid listing page found on the agency's own site
+North Vernon,Indiana,city,https://www.northvernon-in.gov,,not-found,not-found,no RFP/bid listing page found on the agency's own site; blocked:403 https://www.northvernon-in.gov; homepage-unreachable
+Lake Station Community Schools,Indiana,school district,https://www.lakes.k12.in.us,,not-found,not-found,notices page carries only budget notices (2025/2026 Budget Notice to Tax Payers) - no solicitations published here
+Tell City,Indiana,city,https://tellcity.in.gov,,not-found,not-found,no RFP/bid listing page found on the agency's own site; blocked:403 https://tellcity.in.gov; homepage-unreachable
+Norwell Community Schools,Indiana,school district,https://www.nwcs.k12.in.us,,not-found,not-found,no page passed verification; best candidate https://www.nwcs.k12.in.us/bids.aspx scored 20 (<60)
+Whitestown,Indiana,city,https://whitestown.in.gov,,not-found,not-found,no RFP/bid listing page found on the agency's own site; blocked:403 https://whitestown.in.gov; homepage-unreachable
+Duneland School Corporation,Indiana,school district,https://www.duneland.k12.in.us/,,not-found,not-found,no RFP/bid listing page found on the agency's own site; blocked:403 https://www.duneland.k12.in.us/bids.aspx
+Zionsville Community Schools,Indiana,school district,https://www.zcs.k12.in.us/,,not-found,not-found,public-notice page reachable but contains no solicitation entries; blocked:403 https://www.zcs.k12.in.us/bids.aspx
+South Central Com School Corp,Indiana,school district,https://www.scentral.k12.in.us/,,not-found,not-found,no RFP/bid listing page found on the agency's own site; blocked:403 https://indianagps.doe.in.gov/Summary/Corporation/227
+Gas City,Indiana,city,https://gascitygov.com,,not-found,not-found,no page passed verification; best candidate https://gascitygov.com/departments/police-department/solicitation-by-transient-merchants/ scored 20 (<60)
+Southern Wells Com Schools,Indiana,school district,https://www.swraiders.com,,not-found,not-found,no page passed verification; best candidate https://www.swraiders.com/bids.aspx scored 20 (<60)
+Scott County School District 1,Indiana,school district,https://www.scsd1.com,,not-found,not-found,no RFP/bid listing page found on the agency's own site; blocked:403 https://secure.in.gov/apps/Che/scholartrack/
+Hammond,Indiana,city,https://www.gohammond.com,https://www.gohammond.com/departments/planning-and-development/economic-development/active-rfps/,self-hosted,self-hosted,found via sitemap.xml; 2 solicitation item(s) on page; CMS: WordPress; verify score 60
+Southport,Indiana,city,https://www.cityofsouthport.com,,not-found,not-found,"input website redirects to www.cityofsouthport.gov which self-identifies as NC (2 addresses), not Indiana"
+Ossian,Indiana,city,https://ossianin.com,,not-found,not-found,no RFP/bid listing page found on the agency's own site
+Greenfield,Indiana,city,https://www.greenfieldin.org/,,not-found,not-found,no RFP/bid listing page found on the agency's own site
+Smith-Green Community Schools,Indiana,school district,https://www.sgcs.k12.in.us,https://www.sgcs.k12.in.us/legal-notices,self-hosted,self-hosted,found via sitemap.xml; 1 solicitation item(s) on page; verify score 65
+DeMotte,Indiana,city,https://www.townofdemotte.com,,not-found,not-found,no RFP/bid listing page found on the agency's own site
+Elwood,Indiana,city,https://elwood-in.com,,not-found,not-found,no RFP/bid listing page found on the agency's own site
+Northwest Allen County Schools,Indiana,school district,https://www.nacs.k12.in.us/,,not-found,not-found,no RFP/bid listing page found on the agency's own site
+Topeka,Indiana,city,https://topeka-in.gov,,not-found,not-found,no RFP/bid listing page found on the agency's own site
+Portage Township Schools,Indiana,school district,https://www.portage.k12.in.us/,,not-found,not-found,no RFP/bid listing page found on the agency's own site; blocked:403 https://www.portage.k12.in.us/bids
+C A Beard Memorial School Corp,Indiana,school district,https://www.cabeard.k12.in.us,https://www.cabeard.k12.in.us/central-office/public-notices,self-hosted,self-hosted,found via the site's search endpoint; 6 solicitation item(s) on page; CMS: Finalsite; verify score 75
+Crothersville Community Schools,Indiana,school district,https://www.crothersville.k12.in.us/,,not-found,not-found,no page passed verification; best candidate https://www.crothersville.k12.in.us/bids.aspx scored 20 (<60)
+Auburn,Indiana,city,https://www.ci.auburn.in.us/,https://www.ci.auburn.in.us/Bids.aspx,self-hosted,self-hosted,"found via sitemap.xml; no open solicitations listed at capture time (page is correct, A8); CMS: CivicPlus; verify score 85"
+Columbus,Indiana,city,https://www.columbus.in.gov/,https://www.columbus.in.gov/portfolio-items/rfi-and-rfq-documents/,self-hosted,self-hosted,found via sitemap.xml; page identified by URL+title; no individual solicitation entries could be parsed (may be JS- or PDF-published); CMS: Site Kit by Google 1.183.0; verify score 70
+Greenville,Indiana,city,https://visitgreenvillein.com,,not-found,not-found,public-notices page reachable but contains no solicitation entries; blocked:403 https://visitgreenvillein.com/wp-sitemap.xml
+Bedford,Indiana,city,https://bedford.in.us/,,not-found,not-found,no RFP/bid listing page found on the agency's own site
+Warsaw,Indiana,city,https://www.warsaw.in.gov/,,not-found,not-found,no RFP/bid listing page found on the agency's own site; blocked:403 https://www.warsaw.in.gov/; homepage-unreachable
+Peru,Indiana,city,https://www.cityofperu.org,,not-found,not-found,no RFP/bid listing page found on the agency's own site
+Santa Claus,Indiana,city,https://www.townofsantaclaus.com,,not-found,not-found,no RFP/bid listing page found on the agency's own site
+Marion,Indiana,city,https://cityofmarion.in.gov,,not-found,not-found,no page passed verification; best candidate https://cityofmarion.in.gov/business/doing-business-here scored 15 (<60)
+Rome City,Indiana,city,https://www.in.gov/towns/townofromecity/,,not-found,not-found,no RFP/bid listing page found on the agency's own site; blocked:403 https://www.in.gov/business-opportunities
+Lebanon,Indiana,city,https://lebanon.in.gov,,not-found,not-found,no RFP/bid listing page found on the agency's own site; blocked:403 https://lebanon.in.gov; homepage-unreachable
+Geneva,Indiana,city,https://www.townofgeneva.org,,not-found,not-found,no RFP/bid listing page found on the agency's own site; blocked:403 https://www.townofgeneva.org/wp-sitemap.xml
+Milan,Indiana,city,https://milan-in-gov.net/,,not-found,not-found,no RFP/bid listing page found on the agency's own site
+Salem,Indiana,city,https://www.cityofsalemin.com,,not-found,not-found,no RFP/bid listing page found on the agency's own site

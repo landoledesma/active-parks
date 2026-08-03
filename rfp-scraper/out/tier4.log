@@ -1,0 +1,584 @@
+
+=== [156] Albany (city) https://albanyin.com  session=w1
+    $ playwright-cli -s=w1 goto https://albanyin.com
+    $ playwright-cli -s=w1 --raw eval "JSON.stringify({
+ u:location.href, t:document.title||'',
+ n:document.querySelectorAll('a').length,
+ forms:[...document.querySelectorAll('form')].filter(f=>
+    [...f.querySelectorAll('input')].some(i=>/search|query|keyword|^q$|^s$/i.test(i.name+' '+i.id+' '+i.type+' '+(i.placeholder||''))))
+   .slice(0,3).map(f=>({action:f.getAttribute('action')||location.pathname,
+     method:(f.getAttribute('method')||'get').toLowerCase(),
+     field:([...f.querySelectorAll('input')].find(i=>/search|query|keyword|^q$|^s$/i.test(i.name+' '+i.id+' '+i.type+' '+(i.placeholder||'')))||{}).name||''})),
+ L:[...document.querySelectorAll('a')].slice(0,700).map(a=>
+    [(a.textContent||'').replace(/\s+/g,' ').trim().slice(0,60), a.href])
+})"
+      -> title='Town of Albany – A small town with a thriving community' anchors=56 searchforms=0 interesting=0 [loads 1/12]
+    $ playwright-cli -s=w1 --raw eval "JSON.stringify({
+ u:location.href, t:document.title||'',
+ n:document.querySelectorAll('a').length,
+ forms:[...document.querySelectorAll('form')].filter(f=>
+    [...f.querySelectorAll('input')].some(i=>/search|query|keyword|^q$|^s$/i.test(i.name+' '+i.id+' '+i.type+' '+(i.placeholder||''))))
+   .slice(0,3).map(f=>({action:f.getAttribute('action')||location.pathname,
+     method:(f.getAttribute('method')||'get').toLowerCase(),
+     field:([...f.querySelectorAll('input')].find(i=>/search|query|keyword|^q$|^s$/i.test(i.name+' '+i.id+' '+i.type+' '+(i.placeholder||'')))||{}).name||''})),
+ L:[...document.querySelectorAll('a')].slice(0,700).map(a=>
+    [(a.textContent||'').replace(/\s+/g,' ').trim().slice(0,60), a.href])
+})"
+      -> links filter='.' shown=30 (0 loads)
+
+=== [126] Argos (city) https://www.townofargos.com/  session=w2
+    $ playwright-cli -s=w2 goto https://www.townofargos.com/
+    $ playwright-cli -s=w2 --raw eval "JSON.stringify({
+ u:location.href, t:document.title||'',
+ n:document.querySelectorAll('a').length,
+ forms:[...document.querySelectorAll('form')].filter(f=>
+    [...f.querySelectorAll('input')].some(i=>/search|query|keyword|^q$|^s$/i.test(i.name+' '+i.id+' '+i.type+' '+(i.placeholder||''))))
+   .slice(0,3).map(f=>({action:f.getAttribute('action')||location.pathname,
+     method:(f.getAttribute('method')||'get').toLowerCase(),
+     field:([...f.querySelectorAll('input')].find(i=>/search|query|keyword|^q$|^s$/i.test(i.name+' '+i.id+' '+i.type+' '+(i.placeholder||'')))||{}).name||''})),
+ L:[...document.querySelectorAll('a')].slice(0,700).map(a=>
+    [(a.textContent||'').replace(/\s+/g,' ').trim().slice(0,60), a.href])
+})"
+      -> title='Home :: Town of Argos' anchors=78 searchforms=1 interesting=11 [loads 1/12]
+
+=== [87] Attica (city) https://attica-in.gov  session=w3
+    $ playwright-cli -s=w3 goto https://attica-in.gov
+    $ playwright-cli -s=w3 --raw eval "JSON.stringify({
+ u:location.href, t:document.title||'',
+ n:document.querySelectorAll('a').length,
+ forms:[...document.querySelectorAll('form')].filter(f=>
+    [...f.querySelectorAll('input')].some(i=>/search|query|keyword|^q$|^s$/i.test(i.name+' '+i.id+' '+i.type+' '+(i.placeholder||''))))
+   .slice(0,3).map(f=>({action:f.getAttribute('action')||location.pathname,
+     method:(f.getAttribute('method')||'get').toLowerCase(),
+     field:([...f.querySelectorAll('input')].find(i=>/search|query|keyword|^q$|^s$/i.test(i.name+' '+i.id+' '+i.type+' '+(i.placeholder||'')))||{}).name||''})),
+ L:[...document.querySelectorAll('a')].slice(0,700).map(a=>
+    [(a.textContent||'').replace(/\s+/g,' ').trim().slice(0,60), a.href])
+})"
+      -> title='City of Attica, Indiana | Official Website' anchors=77 searchforms=1 interesting=12 [loads 1/12]
+    DECISION [156] Albany: not-found score=- route=nav loads=1
+      reason: site is 5 pages (Town Services, Community Resources, Planning Commission, About Us, Community News); all 56 links read, no bids/RFP/notices page exists
+    $ playwright-cli -s=w2 --raw eval "JSON.stringify({
+ u:location.href, t:document.title||'',
+ n:document.querySelectorAll('a').length,
+ forms:[...document.querySelectorAll('form')].filter(f=>
+    [...f.querySelectorAll('input')].some(i=>/search|query|keyword|^q$|^s$/i.test(i.name+' '+i.id+' '+i.type+' '+(i.placeholder||''))))
+   .slice(0,3).map(f=>({action:f.getAttribute('action')||location.pathname,
+     method:(f.getAttribute('method')||'get').toLowerCase(),
+     field:([...f.querySelectorAll('input')].find(i=>/search|query|keyword|^q$|^s$/i.test(i.name+' '+i.id+' '+i.type+' '+(i.placeholder||'')))||{}).name||''})),
+ L:[...document.querySelectorAll('a')].slice(0,700).map(a=>
+    [(a.textContent||'').replace(/\s+/g,' ').trim().slice(0,60), a.href])
+})"
+    $ playwright-cli -s=w2 goto https://www.townofargos.com/search?search_paths%5B%5D=bid
+    $ playwright-cli -s=w2 --raw eval "JSON.stringify({
+ u:location.href, t:document.title||'',
+ n:document.querySelectorAll('a').length,
+ forms:[...document.querySelectorAll('form')].filter(f=>
+    [...f.querySelectorAll('input')].some(i=>/search|query|keyword|^q$|^s$/i.test(i.name+' '+i.id+' '+i.type+' '+(i.placeholder||''))))
+   .slice(0,3).map(f=>({action:f.getAttribute('action')||location.pathname,
+     method:(f.getAttribute('method')||'get').toLowerCase(),
+     field:([...f.querySelectorAll('input')].find(i=>/search|query|keyword|^q$|^s$/i.test(i.name+' '+i.id+' '+i.type+' '+(i.placeholder||'')))||{}).name||''})),
+ L:[...document.querySelectorAll('a')].slice(0,700).map(a=>
+    [(a.textContent||'').replace(/\s+/g,' ').trim().slice(0,60), a.href])
+})"
+      -> site-search q='bid' -> https://www.townofargos.com/search?search_paths%5B%5D=bid results=11 [loads 2/12]
+    $ playwright-cli -s=w3 find --regex /bid|rfp|proposal|notice|purchas/i
+      -> find '/bid|rfp|proposal|notice|purchas/i' (0 loads)
+    $ playwright-cli -s=w2 goto https://www.townofargos.com/government/document-center
+    $ playwright-cli -s=w2 --raw eval "JSON.stringify({u:location.href,
+ h:document.documentElement.outerHTML.slice(0,400000)})"
+      -> https://www.townofargos.com/government/document-center VERIFY=-50 items=0 indiana=True title='Document Center :: Town of Argos ' [loads 3/12]
+    $ playwright-cli -s=w3 goto https://attica-in.gov/government/board-of-works/
+    $ playwright-cli -s=w3 --raw eval "JSON.stringify({u:location.href,
+ h:document.documentElement.outerHTML.slice(0,400000)})"
+      -> https://attica-in.gov/government/board-of-works/ VERIFY=-40 items=0 indiana=True title='Board of Works - City of Attica, Indiana Board of Works' [loads 2/12]
+    DECISION [126] Argos: not-found score=- route=search+doc-center loads=3
+      reason: site search for 'bid' returned only nav; Document Center VERIFY=-50, no bid-like content; no bids/notices page on site
+    DECISION [87] Attica: not-found score=- route=ctrlF+nav loads=2
+      reason: find --regex bid|rfp|proposal|notice|purchas = 0 matches on homepage; Board of Works VERIFY=-40, no solicitation content
+
+=== [100] Avondale Meadows Academy (school district) https://avondalemeadowsacademy.com/  session=w4
+    $ playwright-cli -s=w4 goto https://avondalemeadowsacademy.com/
+    $ playwright-cli -s=w4 --raw eval "JSON.stringify({
+ u:location.href, t:document.title||'',
+ n:document.querySelectorAll('a').length,
+ forms:[...document.querySelectorAll('form')].filter(f=>
+    [...f.querySelectorAll('input')].some(i=>/search|query|keyword|^q$|^s$/i.test(i.name+' '+i.id+' '+i.type+' '+(i.placeholder||''))))
+   .slice(0,3).map(f=>({action:f.getAttribute('action')||location.pathname,
+     method:(f.getAttribute('method')||'get').toLowerCase(),
+     field:([...f.querySelectorAll('input')].find(i=>/search|query|keyword|^q$|^s$/i.test(i.name+' '+i.id+' '+i.type+' '+(i.placeholder||'')))||{}).name||''})),
+ L:[...document.querySelectorAll('a')].slice(0,700).map(a=>
+    [(a.textContent||'').replace(/\s+/g,' ').trim().slice(0,60), a.href])
+})"
+      -> title='Avondale Meadows Academy (AMA) - A United Schools of Indy Charter Scho' anchors=89 searchforms=0 interesting=0 [loads 1/12]
+
+=== [102] Canaan Community Academy (school district) https://www.canaancommunityacademy.com  session=w1
+    $ playwright-cli -s=w1 goto https://www.canaancommunityacademy.com
+    $ playwright-cli -s=w1 --raw eval "JSON.stringify({
+ u:location.href, t:document.title||'',
+ n:document.querySelectorAll('a').length,
+ forms:[...document.querySelectorAll('form')].filter(f=>
+    [...f.querySelectorAll('input')].some(i=>/search|query|keyword|^q$|^s$/i.test(i.name+' '+i.id+' '+i.type+' '+(i.placeholder||''))))
+   .slice(0,3).map(f=>({action:f.getAttribute('action')||location.pathname,
+     method:(f.getAttribute('method')||'get').toLowerCase(),
+     field:([...f.querySelectorAll('input')].find(i=>/search|query|keyword|^q$|^s$/i.test(i.name+' '+i.id+' '+i.type+' '+(i.placeholder||'')))||{}).name||''})),
+ L:[...document.querySelectorAll('a')].slice(0,700).map(a=>
+    [(a.textContent||'').replace(/\s+/g,' ').trim().slice(0,60), a.href])
+})"
+      -> title='Cougars' anchors=118 searchforms=0 interesting=2 [loads 1/12]
+    $ playwright-cli -s=w4 find --regex /bid|rfp|proposal|solicit|purchas|vendor|procure/i
+      -> find '/bid|rfp|proposal|solicit|purchas|vendor|procure/i' (0 loads)
+    $ playwright-cli -s=w1 find --regex /bid|rfp|proposal|solicit|purchas|vendor|procure/i
+      -> find '/bid|rfp|proposal|solicit|purchas|vendor|procure/i' (0 loads)
+
+=== [58] Danville Community School Corp (school district) https://www.danville.k12.in.us/  session=w2
+    $ playwright-cli -s=w2 goto https://www.danville.k12.in.us/
+    $ playwright-cli -s=w2 --raw eval "JSON.stringify({
+ u:location.href, t:document.title||'',
+ n:document.querySelectorAll('a').length,
+ forms:[...document.querySelectorAll('form')].filter(f=>
+    [...f.querySelectorAll('input')].some(i=>/search|query|keyword|^q$|^s$/i.test(i.name+' '+i.id+' '+i.type+' '+(i.placeholder||''))))
+   .slice(0,3).map(f=>({action:f.getAttribute('action')||location.pathname,
+     method:(f.getAttribute('method')||'get').toLowerCase(),
+     field:([...f.querySelectorAll('input')].find(i=>/search|query|keyword|^q$|^s$/i.test(i.name+' '+i.id+' '+i.type+' '+(i.placeholder||'')))||{}).name||''})),
+ L:[...document.querySelectorAll('a')].slice(0,700).map(a=>
+    [(a.textContent||'').replace(/\s+/g,' ').trim().slice(0,60), a.href])
+})"
+      -> title='Home - Danville Community School Corporation' anchors=414 searchforms=2 interesting=28 [loads 1/12]
+    DECISION [100] Avondale Meadows Academy: not-found score=- route=ctrlF loads=1
+      reason: 89 anchors, 0 interesting links; find --regex bid|rfp|proposal|solicit|purchas|vendor|procure = 0 matches
+    $ playwright-cli -s=w2 --raw eval "JSON.stringify({
+ u:location.href, t:document.title||'',
+ n:document.querySelectorAll('a').length,
+ forms:[...document.querySelectorAll('form')].filter(f=>
+    [...f.querySelectorAll('input')].some(i=>/search|query|keyword|^q$|^s$/i.test(i.name+' '+i.id+' '+i.type+' '+(i.placeholder||''))))
+   .slice(0,3).map(f=>({action:f.getAttribute('action')||location.pathname,
+     method:(f.getAttribute('method')||'get').toLowerCase(),
+     field:([...f.querySelectorAll('input')].find(i=>/search|query|keyword|^q$|^s$/i.test(i.name+' '+i.id+' '+i.type+' '+(i.placeholder||'')))||{}).name||''})),
+ L:[...document.querySelectorAll('a')].slice(0,700).map(a=>
+    [(a.textContent||'').replace(/\s+/g,' ').trim().slice(0,60), a.href])
+})"
+    $ playwright-cli -s=w2 goto https://www.danville.k12.in.us/search-results?q=bid
+    $ playwright-cli -s=w2 --raw eval "JSON.stringify({
+ u:location.href, t:document.title||'',
+ n:document.querySelectorAll('a').length,
+ forms:[...document.querySelectorAll('form')].filter(f=>
+    [...f.querySelectorAll('input')].some(i=>/search|query|keyword|^q$|^s$/i.test(i.name+' '+i.id+' '+i.type+' '+(i.placeholder||''))))
+   .slice(0,3).map(f=>({action:f.getAttribute('action')||location.pathname,
+     method:(f.getAttribute('method')||'get').toLowerCase(),
+     field:([...f.querySelectorAll('input')].find(i=>/search|query|keyword|^q$|^s$/i.test(i.name+' '+i.id+' '+i.type+' '+(i.placeholder||'')))||{}).name||''})),
+ L:[...document.querySelectorAll('a')].slice(0,700).map(a=>
+    [(a.textContent||'').replace(/\s+/g,' ').trim().slice(0,60), a.href])
+})"
+      -> site-search q='bid' -> https://www.danville.k12.in.us/search-results?q=bid results=28 [loads 2/12]
+    DECISION [102] Canaan Community Academy: not-found score=- route=ctrlF loads=1
+      reason: 118 anchors; body-text scan for bid|rfp|proposal|solicit|purchas|vendor|procure = 0 hits (find matches were empty iframe nodes)
+    $ playwright-cli -s=w2 goto https://www.danville.k12.in.us/departments/finance
+    $ playwright-cli -s=w2 --raw eval "JSON.stringify({u:location.href,
+ h:document.documentElement.outerHTML.slice(0,400000)})"
+      -> https://www.danville.k12.in.us/departments/finance VERIFY=35 items=3 indiana=True title='Finance - Danville Community School Corporation Finance' [loads 3/12]
+    DECISION [58] Danville Community School Corp: not-found score=35 route=search+nav loads=3
+      reason: site search q=bid; nav QuickLink 'Public Notices' resolves to /departments/finance, VERIFY=35 (<60), no solicitation content - matches the earlier Tier-3 rejection
+
+=== [124] DeKalb Co Ctl United Sch Dist (school district) https://www.dekalbcentral.net/  session=w3
+    $ playwright-cli -s=w3 goto https://www.dekalbcentral.net/
+    $ playwright-cli -s=w3 --raw eval "JSON.stringify({
+ u:location.href, t:document.title||'',
+ n:document.querySelectorAll('a').length,
+ forms:[...document.querySelectorAll('form')].filter(f=>
+    [...f.querySelectorAll('input')].some(i=>/search|query|keyword|^q$|^s$/i.test(i.name+' '+i.id+' '+i.type+' '+(i.placeholder||''))))
+   .slice(0,3).map(f=>({action:f.getAttribute('action')||location.pathname,
+     method:(f.getAttribute('method')||'get').toLowerCase(),
+     field:([...f.querySelectorAll('input')].find(i=>/search|query|keyword|^q$|^s$/i.test(i.name+' '+i.id+' '+i.type+' '+(i.placeholder||'')))||{}).name||''})),
+ L:[...document.querySelectorAll('a')].slice(0,700).map(a=>
+    [(a.textContent||'').replace(/\s+/g,' ').trim().slice(0,60), a.href])
+})"
+      -> title='DeKalb County Central United Schools - Home' anchors=200 searchforms=1 interesting=10 [loads 1/12]
+
+=== [40] Discovery Charter School (school district) https://www.discoverycharter.org  session=w4
+    $ playwright-cli -s=w4 goto https://www.discoverycharter.org
+    $ playwright-cli -s=w4 --raw eval "JSON.stringify({
+ u:location.href, t:document.title||'',
+ n:document.querySelectorAll('a').length,
+ forms:[...document.querySelectorAll('form')].filter(f=>
+    [...f.querySelectorAll('input')].some(i=>/search|query|keyword|^q$|^s$/i.test(i.name+' '+i.id+' '+i.type+' '+(i.placeholder||''))))
+   .slice(0,3).map(f=>({action:f.getAttribute('action')||location.pathname,
+     method:(f.getAttribute('method')||'get').toLowerCase(),
+     field:([...f.querySelectorAll('input')].find(i=>/search|query|keyword|^q$|^s$/i.test(i.name+' '+i.id+' '+i.type+' '+(i.placeholder||'')))||{}).name||''})),
+ L:[...document.querySelectorAll('a')].slice(0,700).map(a=>
+    [(a.textContent||'').replace(/\s+/g,' ').trim().slice(0,60), a.href])
+})"
+      -> title='Discovery Charter School' anchors=114 searchforms=0 interesting=6 [loads 1/12]
+    $ playwright-cli -s=w3 goto https://www.dekalbcentral.net/280990_2
+    $ playwright-cli -s=w3 --raw eval "JSON.stringify({u:location.href,
+ h:document.documentElement.outerHTML.slice(0,400000)})"
+      -> https://www.dekalbcentral.net/280990_2 VERIFY=-25 items=0 indiana=True title='DeKalb County Central United Schools - Finance Finance' [loads 2/12]
+    $ playwright-cli -s=w4 goto https://www.discoverycharter.org/policies-docs
+    $ playwright-cli -s=w4 --raw eval "JSON.stringify({u:location.href,
+ h:document.documentElement.outerHTML.slice(0,400000)})"
+      -> https://www.discoverycharter.org/policies-docs VERIFY=-50 items=0 indiana=True title='Policies & Docs — Discovery Charter School Discovery Charter' [loads 2/12]
+    DECISION [124] DeKalb Co Ctl United Sch Dist: not-found score=-25 route=nav loads=2
+      reason: Finance dept page VERIFY=-25, no solicitations; only bond-issue notices (2025 Go Bond, 2026 Lease Bond) which are debt notices, not procurement
+    DECISION [40] Discovery Charter School: not-found score=-50 route=nav loads=2
+      reason: Policies & Docs VERIFY=-50, no solicitation content; charter school site has no bids/RFP section
+
+=== [182] Elwood (city) https://elwood-in.com  session=w1
+    $ playwright-cli -s=w1 goto https://elwood-in.com
+    $ playwright-cli -s=w1 --raw eval "JSON.stringify({
+ u:location.href, t:document.title||'',
+ n:document.querySelectorAll('a').length,
+ forms:[...document.querySelectorAll('form')].filter(f=>
+    [...f.querySelectorAll('input')].some(i=>/search|query|keyword|^q$|^s$/i.test(i.name+' '+i.id+' '+i.type+' '+(i.placeholder||''))))
+   .slice(0,3).map(f=>({action:f.getAttribute('action')||location.pathname,
+     method:(f.getAttribute('method')||'get').toLowerCase(),
+     field:([...f.querySelectorAll('input')].find(i=>/search|query|keyword|^q$|^s$/i.test(i.name+' '+i.id+' '+i.type+' '+(i.placeholder||'')))||{}).name||''})),
+ L:[...document.querySelectorAll('a')].slice(0,700).map(a=>
+    [(a.textContent||'').replace(/\s+/g,' ').trim().slice(0,60), a.href])
+})"
+      -> title='Official Website of the City of Elwood, IN – Rich in History. Bright w' anchors=177 searchforms=0 interesting=11 [loads 1/12]
+
+=== [36] Goshen Community Schools (school district) https://www.goshenschools.org/  session=w2
+    $ playwright-cli -s=w2 goto https://www.goshenschools.org/
+    $ playwright-cli -s=w2 --raw eval "JSON.stringify({
+ u:location.href, t:document.title||'',
+ n:document.querySelectorAll('a').length,
+ forms:[...document.querySelectorAll('form')].filter(f=>
+    [...f.querySelectorAll('input')].some(i=>/search|query|keyword|^q$|^s$/i.test(i.name+' '+i.id+' '+i.type+' '+(i.placeholder||''))))
+   .slice(0,3).map(f=>({action:f.getAttribute('action')||location.pathname,
+     method:(f.getAttribute('method')||'get').toLowerCase(),
+     field:([...f.querySelectorAll('input')].find(i=>/search|query|keyword|^q$|^s$/i.test(i.name+' '+i.id+' '+i.type+' '+(i.placeholder||'')))||{}).name||''})),
+ L:[...document.querySelectorAll('a')].slice(0,700).map(a=>
+    [(a.textContent||'').replace(/\s+/g,' ').trim().slice(0,60), a.href])
+})"
+      -> title='Goshen Community Schools - Home' anchors=249 searchforms=1 interesting=18 [loads 1/12]
+    $ playwright-cli -s=w1 find --regex "/bid|rfp|proposal|solicit|purchas|procure|legal notice/i"
+      -> find '/bid|rfp|proposal|solicit|purchas|procure|legal notice/i' (0 loads)
+    $ playwright-cli -s=w2 find --regex "/bid|rfp|proposal|solicit|purchas|procure|legal notice/i"
+      -> find '/bid|rfp|proposal|solicit|purchas|procure|legal notice/i' (0 loads)
+    $ playwright-cli -s=w1 --raw eval "JSON.stringify({
+ u:location.href, t:document.title||'',
+ n:document.querySelectorAll('a').length,
+ forms:[...document.querySelectorAll('form')].filter(f=>
+    [...f.querySelectorAll('input')].some(i=>/search|query|keyword|^q$|^s$/i.test(i.name+' '+i.id+' '+i.type+' '+(i.placeholder||''))))
+   .slice(0,3).map(f=>({action:f.getAttribute('action')||location.pathname,
+     method:(f.getAttribute('method')||'get').toLowerCase(),
+     field:([...f.querySelectorAll('input')].find(i=>/search|query|keyword|^q$|^s$/i.test(i.name+' '+i.id+' '+i.type+' '+(i.placeholder||'')))||{}).name||''})),
+ L:[...document.querySelectorAll('a')].slice(0,700).map(a=>
+    [(a.textContent||'').replace(/\s+/g,' ').trim().slice(0,60), a.href])
+})"
+      -> links filter='clerk|financ|utilit|document|form|notice|business|council|mayor|contact' shown=21 (0 loads)
+    $ playwright-cli -s=w2 goto https://www.goshenschools.org/our-departments
+    $ playwright-cli -s=w2 --raw eval "JSON.stringify({u:location.href,
+ h:document.documentElement.outerHTML.slice(0,400000)})"
+      -> https://www.goshenschools.org/our-departments VERIFY=-25 items=0 indiana=True title='Goshen Community Schools - Our Departments Our Departments' [loads 2/12]
+    $ playwright-cli -s=w1 goto https://elwood-in.com/important-documents/
+    $ playwright-cli -s=w1 --raw eval "JSON.stringify({u:location.href,
+ h:document.documentElement.outerHTML.slice(0,400000)})"
+      -> https://elwood-in.com/important-documents/ VERIFY=-50 items=0 indiana=True title='Important Documents – Official Website of the City of Elwood' [loads 2/12]
+    $ playwright-cli -s=w2 --raw eval "JSON.stringify({
+ u:location.href, t:document.title||'',
+ n:document.querySelectorAll('a').length,
+ forms:[...document.querySelectorAll('form')].filter(f=>
+    [...f.querySelectorAll('input')].some(i=>/search|query|keyword|^q$|^s$/i.test(i.name+' '+i.id+' '+i.type+' '+(i.placeholder||''))))
+   .slice(0,3).map(f=>({action:f.getAttribute('action')||location.pathname,
+     method:(f.getAttribute('method')||'get').toLowerCase(),
+     field:([...f.querySelectorAll('input')].find(i=>/search|query|keyword|^q$|^s$/i.test(i.name+' '+i.id+' '+i.type+' '+(i.placeholder||'')))||{}).name||''})),
+ L:[...document.querySelectorAll('a')].slice(0,700).map(a=>
+    [(a.textContent||'').replace(/\s+/g,' ').trim().slice(0,60), a.href])
+})"
+      -> links filter='business|financ|purchas|operation|facilit|treasur' shown=0 (0 loads)
+    DECISION [182] Elwood: not-found score=-50 route=hidden-menu loads=2
+      reason: found 'Documents & Public Notices' menu (parent href=#, invisible to link scraping); Important Documents VERIFY=-50, no solicitations; only meeting agendas/minutes
+    DECISION [36] Goshen Community Schools: not-found score=-25 route=nav loads=2
+      reason: homepage ctrl-F 0 matches; Our Departments VERIFY=-25 and lists no business/finance/purchasing department link
+
+=== [89] Greenfield-Central Com Schools (school district) https://www.gcsc.k12.in.us/  session=w3
+    $ playwright-cli -s=w3 goto https://www.gcsc.k12.in.us/
+    $ playwright-cli -s=w3 --raw eval "JSON.stringify({
+ u:location.href, t:document.title||'',
+ n:document.querySelectorAll('a').length,
+ forms:[...document.querySelectorAll('form')].filter(f=>
+    [...f.querySelectorAll('input')].some(i=>/search|query|keyword|^q$|^s$/i.test(i.name+' '+i.id+' '+i.type+' '+(i.placeholder||''))))
+   .slice(0,3).map(f=>({action:f.getAttribute('action')||location.pathname,
+     method:(f.getAttribute('method')||'get').toLowerCase(),
+     field:([...f.querySelectorAll('input')].find(i=>/search|query|keyword|^q$|^s$/i.test(i.name+' '+i.id+' '+i.type+' '+(i.placeholder||'')))||{}).name||''})),
+ L:[...document.querySelectorAll('a')].slice(0,700).map(a=>
+    [(a.textContent||'').replace(/\s+/g,' ').trim().slice(0,60), a.href])
+})"
+      -> title='Home - Greenfield-Central Community School Corporation' anchors=270 searchforms=0 interesting=3 [loads 1/12]
+
+=== [160] La Porte (city) https://cityoflaporte.com  session=w4
+    $ playwright-cli -s=w4 goto https://cityoflaporte.com
+    $ playwright-cli -s=w4 --raw eval "JSON.stringify({
+ u:location.href, t:document.title||'',
+ n:document.querySelectorAll('a').length,
+ forms:[...document.querySelectorAll('form')].filter(f=>
+    [...f.querySelectorAll('input')].some(i=>/search|query|keyword|^q$|^s$/i.test(i.name+' '+i.id+' '+i.type+' '+(i.placeholder||''))))
+   .slice(0,3).map(f=>({action:f.getAttribute('action')||location.pathname,
+     method:(f.getAttribute('method')||'get').toLowerCase(),
+     field:([...f.querySelectorAll('input')].find(i=>/search|query|keyword|^q$|^s$/i.test(i.name+' '+i.id+' '+i.type+' '+(i.placeholder||'')))||{}).name||''})),
+ L:[...document.querySelectorAll('a')].slice(0,700).map(a=>
+    [(a.textContent||'').replace(/\s+/g,' ').trim().slice(0,60), a.href])
+})"
+      -> title='Robot Challenge Screen' anchors=0 searchforms=0 interesting=0 [loads 1/12]
+    DECISION [160] La Porte: blocked score=- route=browser loads=1
+      reason: real Chrome served 'Robot Challenge Screen' (sgcaptcha) with 0 anchors - WAF block not flagged by the static pipeline; not circumvented (A6)
+    $ playwright-cli -s=w3 find --regex "/bid|rfp|proposal|solicit|purchas|procure|legal notice|public notice/i"
+      -> find '/bid|rfp|proposal|solicit|purchas|procure|legal notice|public notice/i' (0 loads)
+
+=== [154] Ligonier (city) https://www.in.gov/cities/ligonier/  session=w1
+    $ playwright-cli -s=w1 goto https://www.in.gov/cities/ligonier/
+    $ playwright-cli -s=w1 --raw eval "JSON.stringify({
+ u:location.href, t:document.title||'',
+ n:document.querySelectorAll('a').length,
+ forms:[...document.querySelectorAll('form')].filter(f=>
+    [...f.querySelectorAll('input')].some(i=>/search|query|keyword|^q$|^s$/i.test(i.name+' '+i.id+' '+i.type+' '+(i.placeholder||''))))
+   .slice(0,3).map(f=>({action:f.getAttribute('action')||location.pathname,
+     method:(f.getAttribute('method')||'get').toLowerCase(),
+     field:([...f.querySelectorAll('input')].find(i=>/search|query|keyword|^q$|^s$/i.test(i.name+' '+i.id+' '+i.type+' '+(i.placeholder||'')))||{}).name||''})),
+ L:[...document.querySelectorAll('a')].slice(0,700).map(a=>
+    [(a.textContent||'').replace(/\s+/g,' ').trim().slice(0,60), a.href])
+})"
+      -> title='Ligonier: Home' anchors=83 searchforms=2 interesting=25 [loads 1/12]
+    DECISION [89] Greenfield-Central Com Schools: not-found score=- route=ctrlF loads=1
+      reason: 270 anchors; find --regex bid|rfp|proposal|solicit|purchas|procure|legal notice|public notice = 0 matches; no business-office or notices section in nav
+    $ playwright-cli -s=w1 --raw eval "JSON.stringify({
+ u:location.href, t:document.title||'',
+ n:document.querySelectorAll('a').length,
+ forms:[...document.querySelectorAll('form')].filter(f=>
+    [...f.querySelectorAll('input')].some(i=>/search|query|keyword|^q$|^s$/i.test(i.name+' '+i.id+' '+i.type+' '+(i.placeholder||''))))
+   .slice(0,3).map(f=>({action:f.getAttribute('action')||location.pathname,
+     method:(f.getAttribute('method')||'get').toLowerCase(),
+     field:([...f.querySelectorAll('input')].find(i=>/search|query|keyword|^q$|^s$/i.test(i.name+' '+i.id+' '+i.type+' '+(i.placeholder||'')))||{}).name||''})),
+ L:[...document.querySelectorAll('a')].slice(0,700).map(a=>
+    [(a.textContent||'').replace(/\s+/g,' ').trim().slice(0,60), a.href])
+})"
+    $ playwright-cli -s=w1 goto https://www.in.gov/cities/ligonier/search-results?query=bid
+    $ playwright-cli -s=w1 --raw eval "JSON.stringify({
+ u:location.href, t:document.title||'',
+ n:document.querySelectorAll('a').length,
+ forms:[...document.querySelectorAll('form')].filter(f=>
+    [...f.querySelectorAll('input')].some(i=>/search|query|keyword|^q$|^s$/i.test(i.name+' '+i.id+' '+i.type+' '+(i.placeholder||''))))
+   .slice(0,3).map(f=>({action:f.getAttribute('action')||location.pathname,
+     method:(f.getAttribute('method')||'get').toLowerCase(),
+     field:([...f.querySelectorAll('input')].find(i=>/search|query|keyword|^q$|^s$/i.test(i.name+' '+i.id+' '+i.type+' '+(i.placeholder||'')))||{}).name||''})),
+ L:[...document.querySelectorAll('a')].slice(0,700).map(a=>
+    [(a.textContent||'').replace(/\s+/g,' ').trim().slice(0,60), a.href])
+})"
+      -> site-search q='bid' -> https://www.in.gov/cities/ligonier/search-results/?query=bid results=24 [loads 2/12]
+
+=== [122] Loogootee (city) https://loogootee.in.gov  session=w2
+    $ playwright-cli -s=w2 goto https://loogootee.in.gov
+    $ playwright-cli -s=w2 --raw eval "JSON.stringify({
+ u:location.href, t:document.title||'',
+ n:document.querySelectorAll('a').length,
+ forms:[...document.querySelectorAll('form')].filter(f=>
+    [...f.querySelectorAll('input')].some(i=>/search|query|keyword|^q$|^s$/i.test(i.name+' '+i.id+' '+i.type+' '+(i.placeholder||''))))
+   .slice(0,3).map(f=>({action:f.getAttribute('action')||location.pathname,
+     method:(f.getAttribute('method')||'get').toLowerCase(),
+     field:([...f.querySelectorAll('input')].find(i=>/search|query|keyword|^q$|^s$/i.test(i.name+' '+i.id+' '+i.type+' '+(i.placeholder||'')))||{}).name||''})),
+ L:[...document.querySelectorAll('a')].slice(0,700).map(a=>
+    [(a.textContent||'').replace(/\s+/g,' ').trim().slice(0,60), a.href])
+})"
+      -> title='City of Loogootee, IN | Official Government Website' anchors=70 searchforms=2 interesting=5 [loads 1/12]
+    DECISION [154] Ligonier: not-found score=- route=search loads=2
+      reason: site search query=bid returns a JS-only results widget ('click here to see the results'), no server-rendered results; in.gov city microsite has Business/Government sections but no bids or notices page
+    $ playwright-cli -s=w2 --raw eval "JSON.stringify({
+ u:location.href, t:document.title||'',
+ n:document.querySelectorAll('a').length,
+ forms:[...document.querySelectorAll('form')].filter(f=>
+    [...f.querySelectorAll('input')].some(i=>/search|query|keyword|^q$|^s$/i.test(i.name+' '+i.id+' '+i.type+' '+(i.placeholder||''))))
+   .slice(0,3).map(f=>({action:f.getAttribute('action')||location.pathname,
+     method:(f.getAttribute('method')||'get').toLowerCase(),
+     field:([...f.querySelectorAll('input')].find(i=>/search|query|keyword|^q$|^s$/i.test(i.name+' '+i.id+' '+i.type+' '+(i.placeholder||'')))||{}).name||''})),
+ L:[...document.querySelectorAll('a')].slice(0,700).map(a=>
+    [(a.textContent||'').replace(/\s+/g,' ').trim().slice(0,60), a.href])
+})"
+    $ playwright-cli -s=w2 goto https://loogootee.in.gov/search?query=bid
+    $ playwright-cli -s=w2 --raw eval "JSON.stringify({
+ u:location.href, t:document.title||'',
+ n:document.querySelectorAll('a').length,
+ forms:[...document.querySelectorAll('form')].filter(f=>
+    [...f.querySelectorAll('input')].some(i=>/search|query|keyword|^q$|^s$/i.test(i.name+' '+i.id+' '+i.type+' '+(i.placeholder||''))))
+   .slice(0,3).map(f=>({action:f.getAttribute('action')||location.pathname,
+     method:(f.getAttribute('method')||'get').toLowerCase(),
+     field:([...f.querySelectorAll('input')].find(i=>/search|query|keyword|^q$|^s$/i.test(i.name+' '+i.id+' '+i.type+' '+(i.placeholder||'')))||{}).name||''})),
+ L:[...document.querySelectorAll('a')].slice(0,700).map(a=>
+    [(a.textContent||'').replace(/\s+/g,' ').trim().slice(0,60), a.href])
+})"
+      -> site-search q='bid' -> https://loogootee.in.gov/search?query=bid results=4 [loads 2/12]
+    $ playwright-cli -s=w2 goto https://loogootee.in.gov/documents
+    $ playwright-cli -s=w2 --raw eval "JSON.stringify({u:location.href,
+ h:document.documentElement.outerHTML.slice(0,400000)})"
+      -> https://loogootee.in.gov/documents VERIFY=-25 items=0 indiana=True title='Document Center | City of Loogootee, IN ' [loads 3/12]
+    DECISION [122] Loogootee: not-found score=-25 route=search+doc-center loads=3
+      reason: site search query=bid returns 'No matching results' (server-rendered, definitive); Document Center VERIFY=-25 with no solicitations
+
+=== [161] Markle (city) https://www.markleindiana.com  session=w3
+    $ playwright-cli -s=w3 goto https://www.markleindiana.com
+    $ playwright-cli -s=w3 --raw eval "JSON.stringify({
+ u:location.href, t:document.title||'',
+ n:document.querySelectorAll('a').length,
+ forms:[...document.querySelectorAll('form')].filter(f=>
+    [...f.querySelectorAll('input')].some(i=>/search|query|keyword|^q$|^s$/i.test(i.name+' '+i.id+' '+i.type+' '+(i.placeholder||''))))
+   .slice(0,3).map(f=>({action:f.getAttribute('action')||location.pathname,
+     method:(f.getAttribute('method')||'get').toLowerCase(),
+     field:([...f.querySelectorAll('input')].find(i=>/search|query|keyword|^q$|^s$/i.test(i.name+' '+i.id+' '+i.type+' '+(i.placeholder||'')))||{}).name||''})),
+ L:[...document.querySelectorAll('a')].slice(0,700).map(a=>
+    [(a.textContent||'').replace(/\s+/g,' ').trim().slice(0,60), a.href])
+})"
+      -> title='Town of Markle' anchors=83 searchforms=0 interesting=4 [loads 1/12]
+
+=== [47] Mitchell (city) https://mitchell-in.gov  session=w4
+    $ playwright-cli -s=w4 goto https://mitchell-in.gov
+    $ playwright-cli -s=w4 --raw eval "JSON.stringify({
+ u:location.href, t:document.title||'',
+ n:document.querySelectorAll('a').length,
+ forms:[...document.querySelectorAll('form')].filter(f=>
+    [...f.querySelectorAll('input')].some(i=>/search|query|keyword|^q$|^s$/i.test(i.name+' '+i.id+' '+i.type+' '+(i.placeholder||''))))
+   .slice(0,3).map(f=>({action:f.getAttribute('action')||location.pathname,
+     method:(f.getAttribute('method')||'get').toLowerCase(),
+     field:([...f.querySelectorAll('input')].find(i=>/search|query|keyword|^q$|^s$/i.test(i.name+' '+i.id+' '+i.type+' '+(i.placeholder||'')))||{}).name||''})),
+ L:[...document.querySelectorAll('a')].slice(0,700).map(a=>
+    [(a.textContent||'').replace(/\s+/g,' ').trim().slice(0,60), a.href])
+})"
+      -> title='City of Mitchell, Indiana - City of Mitchell, Indiana' anchors=163 searchforms=2 interesting=8 [loads 1/12]
+    $ playwright-cli -s=w3 find --regex /bid|rfp|proposal|solicit|purchas|procure|notice/i
+      -> find '/bid|rfp|proposal|solicit|purchas|procure|notice/i' (0 loads)
+    $ playwright-cli -s=w4 --raw eval "JSON.stringify({
+ u:location.href, t:document.title||'',
+ n:document.querySelectorAll('a').length,
+ forms:[...document.querySelectorAll('form')].filter(f=>
+    [...f.querySelectorAll('input')].some(i=>/search|query|keyword|^q$|^s$/i.test(i.name+' '+i.id+' '+i.type+' '+(i.placeholder||''))))
+   .slice(0,3).map(f=>({action:f.getAttribute('action')||location.pathname,
+     method:(f.getAttribute('method')||'get').toLowerCase(),
+     field:([...f.querySelectorAll('input')].find(i=>/search|query|keyword|^q$|^s$/i.test(i.name+' '+i.id+' '+i.type+' '+(i.placeholder||'')))||{}).name||''})),
+ L:[...document.querySelectorAll('a')].slice(0,700).map(a=>
+    [(a.textContent||'').replace(/\s+/g,' ').trim().slice(0,60), a.href])
+})"
+    $ playwright-cli -s=w4 goto https://mitchell-in.gov/?s=bid
+    $ playwright-cli -s=w4 --raw eval "JSON.stringify({
+ u:location.href, t:document.title||'',
+ n:document.querySelectorAll('a').length,
+ forms:[...document.querySelectorAll('form')].filter(f=>
+    [...f.querySelectorAll('input')].some(i=>/search|query|keyword|^q$|^s$/i.test(i.name+' '+i.id+' '+i.type+' '+(i.placeholder||''))))
+   .slice(0,3).map(f=>({action:f.getAttribute('action')||location.pathname,
+     method:(f.getAttribute('method')||'get').toLowerCase(),
+     field:([...f.querySelectorAll('input')].find(i=>/search|query|keyword|^q$|^s$/i.test(i.name+' '+i.id+' '+i.type+' '+(i.placeholder||'')))||{}).name||''})),
+ L:[...document.querySelectorAll('a')].slice(0,700).map(a=>
+    [(a.textContent||'').replace(/\s+/g,' ').trim().slice(0,60), a.href])
+})"
+      -> site-search q='bid' -> https://mitchell-in.gov/?s=bid results=2 [loads 2/12]
+    DECISION [161] Markle: not-found score=- route=ctrlF loads=1
+      reason: 83 anchors; find --regex bid|rfp|proposal|solicit|purchas|procure|notice = 0 matches; small town site with departments only
+    $ playwright-cli -s=w4 goto https://mitchell-in.gov/news-notices/
+    $ playwright-cli -s=w4 --raw eval "JSON.stringify({u:location.href,
+ h:document.documentElement.outerHTML.slice(0,400000)})"
+      -> https://mitchell-in.gov/news-notices/ VERIFY=-40 items=0 indiana=True title='News & Notices - City of Mitchell, Indiana News & Notices' [loads 3/12]
+
+=== [193] Peru (city) https://www.cityofperu.org  session=w1
+    $ playwright-cli -s=w1 goto https://www.cityofperu.org
+    $ playwright-cli -s=w1 --raw eval "JSON.stringify({
+ u:location.href, t:document.title||'',
+ n:document.querySelectorAll('a').length,
+ forms:[...document.querySelectorAll('form')].filter(f=>
+    [...f.querySelectorAll('input')].some(i=>/search|query|keyword|^q$|^s$/i.test(i.name+' '+i.id+' '+i.type+' '+(i.placeholder||''))))
+   .slice(0,3).map(f=>({action:f.getAttribute('action')||location.pathname,
+     method:(f.getAttribute('method')||'get').toLowerCase(),
+     field:([...f.querySelectorAll('input')].find(i=>/search|query|keyword|^q$|^s$/i.test(i.name+' '+i.id+' '+i.type+' '+(i.placeholder||'')))||{}).name||''})),
+ L:[...document.querySelectorAll('a')].slice(0,700).map(a=>
+    [(a.textContent||'').replace(/\s+/g,' ').trim().slice(0,60), a.href])
+})"
+      -> title='Peru, IN / Home' anchors=130 searchforms=1 interesting=28 [loads 1/12]
+    DECISION [47] Mitchell: not-found score=-40 route=search+notices loads=3
+      reason: site search ?s=bid returns 'No results found'; News & Notices page VERIFY=-40 with no solicitations
+    $ playwright-cli -s=w1 goto https://www.cityofperu.org/egov/apps/document/center.egov
+    $ playwright-cli -s=w1 --raw eval "JSON.stringify({u:location.href,
+ h:document.documentElement.outerHTML.slice(0,400000)})"
+      -> https://www.cityofperu.org/egov/apps/document/center.egov VERIFY=-50 items=0 indiana=True title='Peru, IN / Document Center / Browse Documents The City of Pe' [loads 2/12]
+    $ playwright-cli -s=w1 goto https://www.cityofperu.org/egov/apps/document/center.egov?view=search&eGov_searchType=4
+    $ playwright-cli -s=w1 --raw eval "JSON.stringify({u:location.href,
+ h:document.documentElement.outerHTML.slice(0,400000)})"
+      -> https://www.cityofperu.org/egov/apps/document/center.egov?view=search&eGov_searchType=4 VERIFY=0 items=4 indiana=True title='Peru, IN / Document Center / Browse Documents The City of Pe' [loads 3/12]
+
+=== [48] Poseyville (city) https://www.poseyville.us  session=w2
+    $ playwright-cli -s=w2 goto https://www.poseyville.us
+    $ playwright-cli -s=w2 --raw eval "JSON.stringify({
+ u:location.href, t:document.title||'',
+ n:document.querySelectorAll('a').length,
+ forms:[...document.querySelectorAll('form')].filter(f=>
+    [...f.querySelectorAll('input')].some(i=>/search|query|keyword|^q$|^s$/i.test(i.name+' '+i.id+' '+i.type+' '+(i.placeholder||''))))
+   .slice(0,3).map(f=>({action:f.getAttribute('action')||location.pathname,
+     method:(f.getAttribute('method')||'get').toLowerCase(),
+     field:([...f.querySelectorAll('input')].find(i=>/search|query|keyword|^q$|^s$/i.test(i.name+' '+i.id+' '+i.type+' '+(i.placeholder||'')))||{}).name||''})),
+ L:[...document.querySelectorAll('a')].slice(0,700).map(a=>
+    [(a.textContent||'').replace(/\s+/g,' ').trim().slice(0,60), a.href])
+})"
+      -> title='Town of Poseyville – Official Website of Poseyville, Indiana' anchors=67 searchforms=1 interesting=14 [loads 1/12]
+    $ playwright-cli -s=w2 --raw eval "JSON.stringify({
+ u:location.href, t:document.title||'',
+ n:document.querySelectorAll('a').length,
+ forms:[...document.querySelectorAll('form')].filter(f=>
+    [...f.querySelectorAll('input')].some(i=>/search|query|keyword|^q$|^s$/i.test(i.name+' '+i.id+' '+i.type+' '+(i.placeholder||''))))
+   .slice(0,3).map(f=>({action:f.getAttribute('action')||location.pathname,
+     method:(f.getAttribute('method')||'get').toLowerCase(),
+     field:([...f.querySelectorAll('input')].find(i=>/search|query|keyword|^q$|^s$/i.test(i.name+' '+i.id+' '+i.type+' '+(i.placeholder||'')))||{}).name||''})),
+ L:[...document.querySelectorAll('a')].slice(0,700).map(a=>
+    [(a.textContent||'').replace(/\s+/g,' ').trim().slice(0,60), a.href])
+})"
+    $ playwright-cli -s=w2 goto https://www.poseyville.us/?s=bid
+    $ playwright-cli -s=w2 --raw eval "JSON.stringify({
+ u:location.href, t:document.title||'',
+ n:document.querySelectorAll('a').length,
+ forms:[...document.querySelectorAll('form')].filter(f=>
+    [...f.querySelectorAll('input')].some(i=>/search|query|keyword|^q$|^s$/i.test(i.name+' '+i.id+' '+i.type+' '+(i.placeholder||''))))
+   .slice(0,3).map(f=>({action:f.getAttribute('action')||location.pathname,
+     method:(f.getAttribute('method')||'get').toLowerCase(),
+     field:([...f.querySelectorAll('input')].find(i=>/search|query|keyword|^q$|^s$/i.test(i.name+' '+i.id+' '+i.type+' '+(i.placeholder||'')))||{}).name||''})),
+ L:[...document.querySelectorAll('a')].slice(0,700).map(a=>
+    [(a.textContent||'').replace(/\s+/g,' ').trim().slice(0,60), a.href])
+})"
+      -> site-search q='bid' -> https://www.poseyville.us/?s=bid results=13 [loads 2/12]
+    DECISION [193] Peru: not-found score=0 route=egov-doccenter loads=3
+      reason: eGov CMS: document-type list is Useful Links/Forms/Minutes/News & Notices/Agendas/Ordinances/Breaking News - no Bids type (unlike Greenwood type 42); type 4 News&Notices VERIFY=0, no solicitations
+    DECISION [48] Poseyville: not-found score=- route=search loads=2
+      reason: site search ?s=bid returns 'Apologies, but the search returned no results'; public-notices page already rejected at Tier 3
+
+=== [200] Salem (city) https://www.cityofsalemin.com  session=w3
+    $ playwright-cli -s=w3 goto https://www.cityofsalemin.com
+    $ playwright-cli -s=w3 --raw eval "JSON.stringify({
+ u:location.href, t:document.title||'',
+ n:document.querySelectorAll('a').length,
+ forms:[...document.querySelectorAll('form')].filter(f=>
+    [...f.querySelectorAll('input')].some(i=>/search|query|keyword|^q$|^s$/i.test(i.name+' '+i.id+' '+i.type+' '+(i.placeholder||''))))
+   .slice(0,3).map(f=>({action:f.getAttribute('action')||location.pathname,
+     method:(f.getAttribute('method')||'get').toLowerCase(),
+     field:([...f.querySelectorAll('input')].find(i=>/search|query|keyword|^q$|^s$/i.test(i.name+' '+i.id+' '+i.type+' '+(i.placeholder||'')))||{}).name||''})),
+ L:[...document.querySelectorAll('a')].slice(0,700).map(a=>
+    [(a.textContent||'').replace(/\s+/g,' ').trim().slice(0,60), a.href])
+})"
+      -> title='Welcome to the City of Salem Indiana' anchors=122 searchforms=0 interesting=25 [loads 1/12]
+
+=== [103] Washington (city) https://www.washingtonin.us/  session=w4
+    $ playwright-cli -s=w4 goto https://www.washingtonin.us/
+    $ playwright-cli -s=w4 --raw eval "JSON.stringify({
+ u:location.href, t:document.title||'',
+ n:document.querySelectorAll('a').length,
+ forms:[...document.querySelectorAll('form')].filter(f=>
+    [...f.querySelectorAll('input')].some(i=>/search|query|keyword|^q$|^s$/i.test(i.name+' '+i.id+' '+i.type+' '+(i.placeholder||''))))
+   .slice(0,3).map(f=>({action:f.getAttribute('action')||location.pathname,
+     method:(f.getAttribute('method')||'get').toLowerCase(),
+     field:([...f.querySelectorAll('input')].find(i=>/search|query|keyword|^q$|^s$/i.test(i.name+' '+i.id+' '+i.type+' '+(i.placeholder||'')))||{}).name||''})),
+ L:[...document.querySelectorAll('a')].slice(0,700).map(a=>
+    [(a.textContent||'').replace(/\s+/g,' ').trim().slice(0,60), a.href])
+})"
+      -> title='Home / Washington, IN' anchors=117 searchforms=2 interesting=28 [loads 1/12]
+    $ playwright-cli -s=w3 find --regex /bid|rfp|proposal|solicit|purchas|procure|notice/i
+      -> find '/bid|rfp|proposal|solicit|purchas|procure|notice/i' (0 loads)
+    $ playwright-cli -s=w4 goto https://www.washingtonin.us/egov/apps/document/center.egov
+    $ playwright-cli -s=w4 --raw eval "JSON.stringify({u:location.href,
+ h:document.documentElement.outerHTML.slice(0,400000)})"
+      -> https://www.washingtonin.us/egov/apps/document/center.egov VERIFY=-50 items=0 indiana=True title='Document Center / Browse Documents / Washington, IN The City' [loads 2/12]
+    DECISION [200] Salem: not-found score=- route=ctrlF loads=1
+      reason: 122 anchors incl. full Government dropdown; find --regex bid|rfp|proposal|solicit|purchas|procure|notice = 0 matches
+    DECISION [103] Washington: not-found score=-50 route=egov-doccenter loads=2
+      reason: eGov CMS: document types are Recent News/Useful Links/Forms/Agendas/Minutes/Ordinances/Meeting Audio/Breaking News - no Bids type; center VERIFY=-50

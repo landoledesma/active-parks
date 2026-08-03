@@ -1,0 +1,106 @@
+{
+ "110": {
+  "status": "resolved",
+  "rfp_url": "https://www.wayne.k12.in.us/community/public-notices",
+  "signal": "tier3-agent",
+  "tier3_note": "page lists 'Request for Proposal Projects' and 'View Request for Proposals' - solicitations are published here",
+  "score": 60
+ },
+ "67": {
+  "status": "resolved",
+  "rfp_url": "https://www.uc.k12.in.us/public-notices",
+  "signal": "tier3-agent",
+  "tier3_note": "page lists a live solicitation: 'Request For Proposal - Food Operation and Management Services'",
+  "score": 60
+ },
+ "57": {
+  "status": "unresolved",
+  "rfp_url": "",
+  "not_found_reason": "blog post about cooperative purchasing, not a solicitation listing",
+  "signal": "tier3-agent"
+ },
+ "10": {
+  "status": "unresolved",
+  "rfp_url": "",
+  "not_found_reason": "notices page carries only tax/budget notices (Notice to Taxpayers, Additional Appropriation) - no solicitations published here",
+  "signal": "tier3-agent"
+ },
+ "166": {
+  "status": "unresolved",
+  "rfp_url": "",
+  "not_found_reason": "notices page carries only budget notices (2025/2026 Budget Notice to Tax Payers) - no solicitations published here",
+  "signal": "tier3-agent"
+ },
+ "107": {
+  "status": "unresolved",
+  "rfp_url": "",
+  "not_found_reason": "notices page carries only public-hearing and taxpayer notices - no solicitations published here",
+  "signal": "tier3-agent"
+ },
+ "163": {
+  "status": "unresolved",
+  "rfp_url": "",
+  "not_found_reason": "single bid advertisement for one project, not a listing page (A4)",
+  "signal": "tier3-agent"
+ },
+ "1": {
+  "status": "unresolved",
+  "rfp_url": "",
+  "not_found_reason": "single 'Notice of Public Bid' from Sept 2021, not a listing page (A4)",
+  "signal": "tier3-agent"
+ },
+ "151": {
+  "status": "unresolved",
+  "rfp_url": "",
+  "not_found_reason": "single Request for Proposals (banking, Mar 2024) posted as a news item, not a listing page (A4)",
+  "signal": "tier3-agent"
+ },
+ "48": {
+  "status": "unresolved",
+  "rfp_url": "",
+  "not_found_reason": "public-notices page reachable but contains no solicitation entries",
+  "signal": "tier3-agent"
+ },
+ "190": {
+  "status": "unresolved",
+  "rfp_url": "",
+  "not_found_reason": "public-notices page reachable but contains no solicitation entries",
+  "signal": "tier3-agent"
+ },
+ "114": {
+  "status": "unresolved",
+  "rfp_url": "",
+  "not_found_reason": "public-notices page reachable but contains no solicitation entries",
+  "signal": "tier3-agent"
+ },
+ "171": {
+  "status": "unresolved",
+  "rfp_url": "",
+  "not_found_reason": "public-notice page reachable but contains no solicitation entries",
+  "signal": "tier3-agent"
+ },
+ "58": {
+  "status": "unresolved",
+  "rfp_url": "",
+  "not_found_reason": "finance department page, no solicitation entries",
+  "signal": "tier3-agent"
+ },
+ "135": {
+  "status": "unresolved",
+  "rfp_url": "",
+  "not_found_reason": "business page, no solicitation entries",
+  "signal": "tier3-agent"
+ },
+ "93": {
+  "status": "unresolved",
+  "rfp_url": "",
+  "not_found_reason": "legal-notices page reachable but contains no solicitation entries",
+  "signal": "tier3-agent"
+ },
+ "38": {
+  "status": "unresolved",
+  "rfp_url": "",
+  "not_found_reason": "site-search result page quoting the public-records bid policy, not a solicitation listing",
+  "signal": "tier3-agent"
+ }
+}

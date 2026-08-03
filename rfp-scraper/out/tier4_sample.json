@@ -1,0 +1,162 @@
+[
+ {
+  "idx": 156,
+  "agency_name": "Albany",
+  "agency_type": "city",
+  "agency_website": "https://albanyin.com",
+  "agency_domain": "albanyin.com",
+  "prior_note": "no RFP/bid listing page found on the agency's own site"
+ },
+ {
+  "idx": 126,
+  "agency_name": "Argos",
+  "agency_type": "city",
+  "agency_website": "https://www.townofargos.com/",
+  "agency_domain": "townofargos.com",
+  "prior_note": "no RFP/bid listing page found on the agency's own site"
+ },
+ {
+  "idx": 87,
+  "agency_name": "Attica",
+  "agency_type": "city",
+  "agency_website": "https://attica-in.gov",
+  "agency_domain": "attica-in.gov",
+  "prior_note": "no RFP/bid listing page found on the agency's own site"
+ },
+ {
+  "idx": 100,
+  "agency_name": "Avondale Meadows Academy",
+  "agency_type": "school district",
+  "agency_website": "https://avondalemeadowsacademy.com/",
+  "agency_domain": "avondalemeadowsacademy.com",
+  "prior_note": "no RFP/bid listing page found on the agency's own site"
+ },
+ {
+  "idx": 102,
+  "agency_name": "Canaan Community Academy",
+  "agency_type": "school district",
+  "agency_website": "https://www.canaancommunityacademy.com",
+  "agency_domain": "canaancommunityacademy.com",
+  "prior_note": "no RFP/bid listing page found on the agency's own site"
+ },
+ {
+  "idx": 58,
+  "agency_name": "Danville Community School Corp",
+  "agency_type": "school district",
+  "agency_website": "https://www.danville.k12.in.us/",
+  "agency_domain": "danville.k12.in.us",
+  "prior_note": "finance department page, no solicitation entries"
+ },
+ {
+  "idx": 124,
+  "agency_name": "DeKalb Co Ctl United Sch Dist",
+  "agency_type": "school district",
+  "agency_website": "https://www.dekalbcentral.net/",
+  "agency_domain": "dekalbcentral.net",
+  "prior_note": "no RFP/bid listing page found on the agency's own site"
+ },
+ {
+  "idx": 40,
+  "agency_name": "Discovery Charter School",
+  "agency_type": "school district",
+  "agency_website": "https://www.discoverycharter.org",
+  "agency_domain": "discoverycharter.org",
+  "prior_note": "no RFP/bid listing page found on the agency's own site"
+ },
+ {
+  "idx": 182,
+  "agency_name": "Elwood",
+  "agency_type": "city",
+  "agency_website": "https://elwood-in.com",
+  "agency_domain": "elwood-in.com",
+  "prior_note": "no RFP/bid listing page found on the agency's own site"
+ },
+ {
+  "idx": 36,
+  "agency_name": "Goshen Community Schools",
+  "agency_type": "school district",
+  "agency_website": "https://www.goshenschools.org/",
+  "agency_domain": "goshenschools.org",
+  "prior_note": "no RFP/bid listing page found on the agency's own site"
+ },
+ {
+  "idx": 89,
+  "agency_name": "Greenfield-Central Com Schools",
+  "agency_type": "school district",
+  "agency_website": "https://www.gcsc.k12.in.us/",
+  "agency_domain": "gcsc.k12.in.us",
+  "prior_note": "no RFP/bid listing page found on the agency's own site"
+ },
+ {
+  "idx": 160,
+  "agency_name": "La Porte",
+  "agency_type": "city",
+  "agency_website": "https://cityoflaporte.com",
+  "agency_domain": "cityoflaporte.com",
+  "prior_note": "no RFP/bid listing page found on the agency's own site; homepage-unreachable"
+ },
+ {
+  "idx": 154,
+  "agency_name": "Ligonier",
+  "agency_type": "city",
+  "agency_website": "https://www.in.gov/cities/ligonier/",
+  "agency_domain": "in.gov/cities/ligonier",
+  "prior_note": "no RFP/bid listing page found on the agency's own site"
+ },
+ {
+  "idx": 122,
+  "agency_name": "Loogootee",
+  "agency_type": "city",
+  "agency_website": "https://loogootee.in.gov",
+  "agency_domain": "loogootee.in.gov",
+  "prior_note": "no RFP/bid listing page found on the agency's own site"
+ },
+ {
+  "idx": 161,
+  "agency_name": "Markle",
+  "agency_type": "city",
+  "agency_website": "https://www.markleindiana.com",
+  "agency_domain": "markleindiana.com",
+  "prior_note": "no RFP/bid listing page found on the agency's own site"
+ },
+ {
+  "idx": 47,
+  "agency_name": "Mitchell",
+  "agency_type": "city",
+  "agency_website": "https://mitchell-in.gov",
+  "agency_domain": "mitchell-in.gov",
+  "prior_note": "no RFP/bid listing page found on the agency's own site"
+ },
+ {
+  "idx": 193,
+  "agency_name": "Peru",
+  "agency_type": "city",
+  "agency_website": "https://www.cityofperu.org",
+  "agency_domain": "cityofperu.org",
+  "prior_note": "no RFP/bid listing page found on the agency's own site"
+ },
+ {
+  "idx": 48,
+  "agency_name": "Poseyville",
+  "agency_type": "city",
+  "agency_website": "https://www.poseyville.us",
+  "agency_domain": "poseyville.us",
+  "prior_note": "public-notices page reachable but contains no solicitation entries"
+ },
+ {
+  "idx": 200,
+  "agency_name": "Salem",
+  "agency_type": "city",
+  "agency_website": "https://www.cityofsalemin.com",
+  "agency_domain": "cityofsalemin.com",
+  "prior_note": "no RFP/bid listing page found on the agency's own site"
+ },
+ {
+  "idx": 103,
+  "agency_name": "Washington",
+  "agency_type": "city",
+  "agency_website": "https://www.washingtonin.us/",
+  "agency_domain": "washingtonin.us",
+  "prior_note": "no RFP/bid listing page found on the agency's own site"
+ }
+]

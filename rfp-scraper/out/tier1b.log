@@ -1,0 +1,20 @@
+tier1b: 160 agencies, 4 sessions, <=7 page loads each
+  [w3] 40 agencies
+  [w2] 40 agencies
+  [w1] 40 agencies
+  [w4] 40 agencies
+  [w4] 10/40 (resolved 2)
+  [w3] 10/40 (resolved 3)
+  [w2] 10/40 (resolved 3)
+  [w1] 10/40 (resolved 3)
+  [w4] 20/40 (resolved 4)
+  [w3] 20/40 (resolved 5)
+  [w2] 20/40 (resolved 6)
+  [w1] 20/40 (resolved 6)
+  [w4] 30/40 (resolved 6)
+  [w3] 30/40 (resolved 7)
+  [w2] 30/40 (resolved 7)
+  [w4] 40/40 (resolved 7)
+  [w3] 40/40 (resolved 7)
+  [w1] 30/40 (resolved 7)
+  [w2] 40/40 (resolved 8)

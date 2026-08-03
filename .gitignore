@@ -10,11 +10,8 @@ __pycache__/
 *$py.class
 
 # Output & temp directories
-out/
 .playwright-cli/
 .claude/
-sessions/
-*.log
 
 # IDE & OS files
 .vscode/
